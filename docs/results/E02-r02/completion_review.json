@@ -1,0 +1,9 @@
+{
+  "review_time": "2026-10-23T16:01:59.669879+08:00",
+  "completed_epochs": 30,
+  "selected_epoch": 28,
+  "train_validation_seconds": 6816.931790052957,
+  "peak_gpu_mib": 1433.22607421875,
+  "training_log_complete": true,
+  "completion_time": "2026-10-23T15:45:56.633923+08:00"
+}

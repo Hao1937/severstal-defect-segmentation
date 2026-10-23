@@ -1,0 +1,68 @@
+[
+  {
+    "image": "268446e17.jpg",
+    "class_id": 2,
+    "dice": 0.0,
+    "pred_area": 0,
+    "true_area": 1313,
+    "classification_probability": 0.06793212890625,
+    "area_pred_area": 1319,
+    "area_dice": 0.8761398196220398,
+    "change": "lost_overlap",
+    "reason": "hard_lost_correct_localization",
+    "figure": "cases/268446e17.png"
+  },
+  {
+    "image": "91222b4c9.jpg",
+    "class_id": 2,
+    "dice": 1.0,
+    "pred_area": 0,
+    "true_area": 0,
+    "classification_probability": 0.0,
+    "area_pred_area": 247,
+    "area_dice": 0.0,
+    "change": "removed_false_positive",
+    "reason": "dynamic_removed_false_positive",
+    "figure": "cases/91222b4c9.png"
+  },
+  {
+    "image": "daeea39b1.jpg",
+    "class_id": 2,
+    "dice": 1.0,
+    "pred_area": 0,
+    "true_area": 0,
+    "classification_probability": 4.76837158203125e-07,
+    "area_pred_area": 246,
+    "area_dice": 0.0,
+    "change": "removed_false_positive",
+    "reason": "dynamic_removed_false_positive",
+    "figure": "cases/daeea39b1.png"
+  },
+  {
+    "image": "0c6720401.jpg",
+    "class_id": 2,
+    "dice": 0.6367586851119995,
+    "pred_area": 2491,
+    "true_area": 5333,
+    "reason": "dynamic_retained_despite_low_classifier_confidence",
+    "figure": "cases/0c6720401.png"
+  },
+  {
+    "image": "f7b1dd93a.jpg",
+    "class_id": 2,
+    "dice": 0.6004242300987244,
+    "pred_area": 2140,
+    "true_area": 3989,
+    "reason": "dynamic_retained_despite_low_classifier_confidence",
+    "figure": "cases/f7b1dd93a.png"
+  },
+  {
+    "image": "163ff3547.jpg",
+    "class_id": 2,
+    "dice": 0.9049167633056641,
+    "pred_area": 2580,
+    "true_area": 2647,
+    "reason": "area_reference",
+    "figure": "cases/163ff3547.png"
+  }
+]
