@@ -1,0 +1,14 @@
+{
+  "time": "2026-10-23T21:34:06+0800",
+  "reason": "user_requested_stop_due_to_heat",
+  "pid": 76540,
+  "resumable_completed_epoch": 17,
+  "best_epoch": 15,
+  "best_score": 0.6744860282263601,
+  "training_commit": "c7427abf02108a2b3c7414cd78c862aa003f74c5",
+  "interrupted_log_tail": [
+    "{\"event\": \"progress\", \"epoch\": 18, \"step\": 600, \"steps\": 5027, \"loss\": 0.05542805747406116, \"seconds\": 32.0}",
+    "{\"event\": \"progress\", \"epoch\": 18, \"step\": 700, \"steps\": 5027, \"loss\": 0.05563315403745946, \"seconds\": 37.3}"
+  ],
+  "automation": "PAUSED"
+}
