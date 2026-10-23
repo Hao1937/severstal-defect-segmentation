@@ -1,0 +1,62 @@
+[
+  {
+    "class_id": 1,
+    "positive_images": 718,
+    "full_mask_area_quantiles": [
+      163.0,
+      1778.75,
+      3394.5,
+      5970.75,
+      31303.0
+    ],
+    "mean_positive_crop_probability_given_positive_image": 0.4772644142104765,
+    "expected_positive_crops_per_epoch": 342.67584940312213,
+    "expected_positive_crop_fraction": 0.034083533857481814,
+    "expected_positive_pixel_fraction": 0.00078850251750424
+  },
+  {
+    "class_id": 2,
+    "positive_images": 198,
+    "full_mask_area_quantiles": [
+      405.0,
+      2026.25,
+      3055.5,
+      4520.75,
+      14023.0
+    ],
+    "mean_positive_crop_probability_given_positive_image": 0.3391908061329548,
+    "expected_positive_crops_per_epoch": 67.15977961432506,
+    "expected_positive_crop_fraction": 0.006679906466513334,
+    "expected_positive_pixel_fraction": 0.0001697536056963494
+  },
+  {
+    "class_id": 3,
+    "positive_images": 4120,
+    "full_mask_area_quantiles": [
+      115.0,
+      5070.0,
+      11998.0,
+      29081.25,
+      368240.0
+    ],
+    "mean_positive_crop_probability_given_positive_image": 0.6249908618399351,
+    "expected_positive_crops_per_epoch": 2574.9623507805327,
+    "expected_positive_crop_fraction": 0.256113223670234,
+    "expected_positive_pixel_fraction": 0.028230195934529332
+  },
+  {
+    "class_id": 4,
+    "positive_images": 641,
+    "full_mask_area_quantiles": [
+      491.0,
+      13267.0,
+      24858.0,
+      46290.0,
+      182380.0
+    ],
+    "mean_positive_crop_probability_given_positive_image": 0.6115731130622636,
+    "expected_positive_crops_per_epoch": 392.01836547291094,
+    "expected_positive_crop_fraction": 0.03899128361576596,
+    "expected_positive_pixel_fraction": 0.005752252384909829
+  }
+]

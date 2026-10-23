@@ -1,0 +1,92 @@
+{
+  "time": "2026-10-23T10:42:13.095859+08:00",
+  "latest": {
+    "epoch": 15,
+    "loss": 0.08828893876578611,
+    "train_seconds": 193.33243247100472,
+    "val_seconds": 44.807717126997886,
+    "peak_gpu_mib": 796.75439453125,
+    "learning_rate": 0.00015,
+    "metrics": {
+      "dice": 0.4823750980923455,
+      "nonempty_dice": 0.6570973105900048,
+      "classes": {
+        "1": {
+          "dice": 0.40889306790262087,
+          "nonempty_dice": 0.5025540374703289,
+          "image_class_recall": 0.9888268156424581,
+          "false_positive_pairs": 1397,
+          "false_negative_pairs": 2
+        },
+        "2": {
+          "dice": 0.6698530141794691,
+          "nonempty_dice": 0.4696015846364352,
+          "image_class_recall": 0.8367346938775511,
+          "false_positive_pairs": 804,
+          "false_negative_pairs": 8
+        },
+        "3": {
+          "dice": 0.39385770991972113,
+          "nonempty_dice": 0.6865614395516301,
+          "image_class_recall": 1.0,
+          "false_positive_pairs": 1201,
+          "false_negative_pairs": 0
+        },
+        "4": {
+          "dice": 0.456896600367571,
+          "nonempty_dice": 0.6977378332754597,
+          "image_class_recall": 1.0,
+          "false_positive_pairs": 1317,
+          "false_negative_pairs": 0
+        }
+      }
+    },
+    "best_score": 0.669475329137517
+  },
+  "completed_epochs": 15,
+  "best": {
+    "epoch": 14,
+    "loss": 0.08844461740421944,
+    "train_seconds": 189.12381570100115,
+    "val_seconds": 44.04576023200207,
+    "peak_gpu_mib": 796.75439453125,
+    "learning_rate": 0.00015,
+    "metrics": {
+      "dice": 0.4802422450991447,
+      "nonempty_dice": 0.669475329137517,
+      "classes": {
+        "1": {
+          "dice": 0.32601910880889057,
+          "nonempty_dice": 0.5788382097516812,
+          "image_class_recall": 0.9888268156424581,
+          "false_positive_pairs": 1619,
+          "false_negative_pairs": 2
+        },
+        "2": {
+          "dice": 0.665621449117302,
+          "nonempty_dice": 0.45657802205912923,
+          "image_class_recall": 0.8979591836734694,
+          "false_positive_pairs": 814,
+          "false_negative_pairs": 5
+        },
+        "3": {
+          "dice": 0.46842520442323954,
+          "nonempty_dice": 0.6908941397281788,
+          "image_class_recall": 0.9990291262135922,
+          "false_positive_pairs": 1018,
+          "false_negative_pairs": 1
+        },
+        "4": {
+          "dice": 0.46090321804714657,
+          "nonempty_dice": 0.6981918135657906,
+          "image_class_recall": 1.0,
+          "false_positive_pairs": 1307,
+          "false_negative_pairs": 0
+        }
+      }
+    },
+    "best_score": 0.669475329137517
+  },
+  "process": "46972       51:36 .venv/bin/python -m severstal.train --config configs/unet_resnet34.yaml --output runs/E02-r01",
+  "tail": "\": 16, \"step\": 800, \"steps\": 2514, \"loss\": 0.08784606729577718, \"seconds\": 61.0}\n{\"event\": \"progress\", \"epoch\": 16, \"step\": 900, \"steps\": 2514, \"loss\": 0.08766678348922546, \"seconds\": 68.1}\n{\"event\": \"progress\", \"epoch\": 16, \"step\": 1000, \"steps\": 2514, \"loss\": 0.08767579165090865, \"seconds\": 77.0}\n"
+}

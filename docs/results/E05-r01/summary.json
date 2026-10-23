@@ -1,0 +1,319 @@
+{
+  "time": "2026-10-23T10:34:58.803807+08:00",
+  "run": "runs/E02-r01",
+  "epoch": 13,
+  "pixel_threshold": 0.5,
+  "validation_images": 2514,
+  "filter": "whole_class_total_area",
+  "purpose": "validation_diagnostic_not_independent_test",
+  "classes": [
+    {
+      "class_id": 1,
+      "thresholds": [
+        {
+          "minimum_area": 0,
+          "dice": 0.33151671986555714,
+          "nonempty_dice": 0.58901136168721,
+          "detected_positive_images": 178,
+          "positive_images_with_overlap": 177,
+          "false_negative_images": 1,
+          "false_positive_images": 1607
+        },
+        {
+          "minimum_area": 50,
+          "dice": 0.36970287738345686,
+          "nonempty_dice": 0.58901136168721,
+          "detected_positive_images": 178,
+          "positive_images_with_overlap": 177,
+          "false_negative_images": 1,
+          "false_positive_images": 1511
+        },
+        {
+          "minimum_area": 100,
+          "dice": 0.39635363315115774,
+          "nonempty_dice": 0.58901136168721,
+          "detected_positive_images": 178,
+          "positive_images_with_overlap": 177,
+          "false_negative_images": 1,
+          "false_positive_images": 1444
+        },
+        {
+          "minimum_area": 200,
+          "dice": 0.44408633004853243,
+          "nonempty_dice": 0.58901136168721,
+          "detected_positive_images": 178,
+          "positive_images_with_overlap": 177,
+          "false_negative_images": 1,
+          "false_positive_images": 1324
+        },
+        {
+          "minimum_area": 400,
+          "dice": 0.5216188792616437,
+          "nonempty_dice": 0.5885467176747056,
+          "detected_positive_images": 177,
+          "positive_images_with_overlap": 176,
+          "false_negative_images": 2,
+          "false_positive_images": 1129
+        },
+        {
+          "minimum_area": 600,
+          "dice": 0.5811832248927491,
+          "nonempty_dice": 0.5871208233540285,
+          "detected_positive_images": 174,
+          "positive_images_with_overlap": 174,
+          "false_negative_images": 5,
+          "false_positive_images": 979
+        },
+        {
+          "minimum_area": 1000,
+          "dice": 0.6720756845120504,
+          "nonempty_dice": 0.567588105381534,
+          "detected_positive_images": 166,
+          "positive_images_with_overlap": 166,
+          "false_negative_images": 13,
+          "false_positive_images": 747
+        },
+        {
+          "minimum_area": 2000,
+          "dice": 0.7814560892710917,
+          "nonempty_dice": 0.38313189065656184,
+          "detected_positive_images": 113,
+          "positive_images_with_overlap": 113,
+          "false_negative_images": 66,
+          "false_positive_images": 439
+        }
+      ]
+    },
+    {
+      "class_id": 2,
+      "thresholds": [
+        {
+          "minimum_area": 0,
+          "dice": 0.5814044872890082,
+          "nonempty_dice": 0.5030792049911558,
+          "detected_positive_images": 43,
+          "positive_images_with_overlap": 40,
+          "false_negative_images": 6,
+          "false_positive_images": 1028
+        },
+        {
+          "minimum_area": 50,
+          "dice": 0.610044105427433,
+          "nonempty_dice": 0.5030792049911558,
+          "detected_positive_images": 42,
+          "positive_images_with_overlap": 40,
+          "false_negative_images": 7,
+          "false_positive_images": 956
+        },
+        {
+          "minimum_area": 100,
+          "dice": 0.6255572319190799,
+          "nonempty_dice": 0.5030792049911558,
+          "detected_positive_images": 41,
+          "positive_images_with_overlap": 40,
+          "false_negative_images": 8,
+          "false_positive_images": 917
+        },
+        {
+          "minimum_area": 200,
+          "dice": 0.6498213528419119,
+          "nonempty_dice": 0.5030792049911558,
+          "detected_positive_images": 40,
+          "positive_images_with_overlap": 40,
+          "false_negative_images": 9,
+          "false_positive_images": 856
+        },
+        {
+          "minimum_area": 400,
+          "dice": 0.696665824511716,
+          "nonempty_dice": 0.4983241392337546,
+          "detected_positive_images": 39,
+          "positive_images_with_overlap": 39,
+          "false_negative_images": 10,
+          "false_positive_images": 738
+        },
+        {
+          "minimum_area": 600,
+          "dice": 0.7233165802794168,
+          "nonempty_dice": 0.4983241392337546,
+          "detected_positive_images": 39,
+          "positive_images_with_overlap": 39,
+          "false_negative_images": 10,
+          "false_positive_images": 671
+        },
+        {
+          "minimum_area": 1000,
+          "dice": 0.7746242123434444,
+          "nonempty_dice": 0.4980667312534488,
+          "detected_positive_images": 38,
+          "positive_images_with_overlap": 38,
+          "false_negative_images": 11,
+          "false_positive_images": 542
+        },
+        {
+          "minimum_area": 2000,
+          "dice": 0.8569561892804781,
+          "nonempty_dice": 0.33444611941065105,
+          "detected_positive_images": 25,
+          "positive_images_with_overlap": 25,
+          "false_negative_images": 24,
+          "false_positive_images": 327
+        }
+      ]
+    },
+    {
+      "class_id": 3,
+      "thresholds": [
+        {
+          "minimum_area": 0,
+          "dice": 0.4969458766243633,
+          "nonempty_dice": 0.6838077027511159,
+          "detected_positive_images": 1026,
+          "positive_images_with_overlap": 1015,
+          "false_negative_images": 4,
+          "false_positive_images": 939
+        },
+        {
+          "minimum_area": 50,
+          "dice": 0.5132139212807141,
+          "nonempty_dice": 0.6837085418443838,
+          "detected_positive_images": 1022,
+          "positive_images_with_overlap": 1012,
+          "false_negative_images": 8,
+          "false_positive_images": 898
+        },
+        {
+          "minimum_area": 100,
+          "dice": 0.526738185401637,
+          "nonempty_dice": 0.6837085418443838,
+          "detected_positive_images": 1022,
+          "positive_images_with_overlap": 1012,
+          "false_negative_images": 8,
+          "false_positive_images": 864
+        },
+        {
+          "minimum_area": 200,
+          "dice": 0.5438177379779148,
+          "nonempty_dice": 0.6836483429868715,
+          "detected_positive_images": 1019,
+          "positive_images_with_overlap": 1011,
+          "false_negative_images": 11,
+          "false_positive_images": 821
+        },
+        {
+          "minimum_area": 400,
+          "dice": 0.5704326330283664,
+          "nonempty_dice": 0.6835608149837992,
+          "detected_positive_images": 1018,
+          "positive_images_with_overlap": 1010,
+          "false_negative_images": 12,
+          "false_positive_images": 754
+        },
+        {
+          "minimum_area": 600,
+          "dice": 0.5917010063545551,
+          "nonempty_dice": 0.6830449805585939,
+          "detected_positive_images": 1015,
+          "positive_images_with_overlap": 1007,
+          "false_negative_images": 15,
+          "false_positive_images": 700
+        },
+        {
+          "minimum_area": 1000,
+          "dice": 0.6264127708264673,
+          "nonempty_dice": 0.6813608794735329,
+          "detected_positive_images": 1009,
+          "positive_images_with_overlap": 1003,
+          "false_negative_images": 21,
+          "false_positive_images": 611
+        },
+        {
+          "minimum_area": 2000,
+          "dice": 0.6864555716216743,
+          "nonempty_dice": 0.6686886476280475,
+          "detected_positive_images": 987,
+          "positive_images_with_overlap": 981,
+          "false_negative_images": 43,
+          "false_positive_images": 447
+        }
+      ]
+    },
+    {
+      "class_id": 4,
+      "thresholds": [
+        {
+          "minimum_area": 0,
+          "dice": 0.5802976894255375,
+          "nonempty_dice": 0.6804274450987577,
+          "detected_positive_images": 157,
+          "positive_images_with_overlap": 156,
+          "false_negative_images": 3,
+          "false_positive_images": 1004
+        },
+        {
+          "minimum_area": 50,
+          "dice": 0.6176883019951477,
+          "nonempty_dice": 0.6804274450987577,
+          "detected_positive_images": 157,
+          "positive_images_with_overlap": 156,
+          "false_negative_images": 3,
+          "false_positive_images": 910
+        },
+        {
+          "minimum_area": 100,
+          "dice": 0.6359858358058079,
+          "nonempty_dice": 0.6804274450987577,
+          "detected_positive_images": 157,
+          "positive_images_with_overlap": 156,
+          "false_negative_images": 3,
+          "false_positive_images": 864
+        },
+        {
+          "minimum_area": 200,
+          "dice": 0.6594544117803506,
+          "nonempty_dice": 0.6804274450987577,
+          "detected_positive_images": 157,
+          "positive_images_with_overlap": 156,
+          "false_negative_images": 3,
+          "false_positive_images": 805
+        },
+        {
+          "minimum_area": 400,
+          "dice": 0.6956517069275263,
+          "nonempty_dice": 0.6804274450987577,
+          "detected_positive_images": 157,
+          "positive_images_with_overlap": 156,
+          "false_negative_images": 3,
+          "false_positive_images": 714
+        },
+        {
+          "minimum_area": 600,
+          "dice": 0.720711372798648,
+          "nonempty_dice": 0.6804274450987577,
+          "detected_positive_images": 157,
+          "positive_images_with_overlap": 156,
+          "false_negative_images": 3,
+          "false_positive_images": 651
+        },
+        {
+          "minimum_area": 1000,
+          "dice": 0.7588262119424561,
+          "nonempty_dice": 0.6793068551458419,
+          "detected_positive_images": 156,
+          "positive_images_with_overlap": 155,
+          "false_negative_images": 4,
+          "false_positive_images": 555
+        },
+        {
+          "minimum_area": 2000,
+          "dice": 0.8070544863124167,
+          "nonempty_dice": 0.6745936161838472,
+          "detected_positive_images": 154,
+          "positive_images_with_overlap": 153,
+          "false_negative_images": 6,
+          "false_positive_images": 433
+        }
+      ]
+    }
+  ]
+}

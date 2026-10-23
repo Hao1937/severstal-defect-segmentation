@@ -1,0 +1,67 @@
+{
+  "run": "runs/E02-r01",
+  "checkpoint_epoch": 11,
+  "training_commit": "d0c1e67f72cb542a18fcfedf34de857b1f0799a8",
+  "checkout_commit": "d0c1e67f72cb542a18fcfedf34de857b1f0799a8",
+  "inference": "cpu_float32_no_tta",
+  "threshold_role": "diagnostic_only_not_selected",
+  "positive_images": 49,
+  "negative_population": 2465,
+  "negative_sample_seed": 42,
+  "negative_sample_size": 196,
+  "gt_max_probability_quantiles": [
+    0.0008714760770089924,
+    0.010033481754362583,
+    0.07877844572067261,
+    0.3481487035751343,
+    0.37492841482162476
+  ],
+  "thresholds": [
+    {
+      "threshold": 0.1,
+      "positive_images": 49,
+      "negative_images_sampled": 196,
+      "detected_positive_images": 36,
+      "positive_images_with_overlap": 23,
+      "nonempty_dice": 0.22145534744545697,
+      "false_positive_images_in_sample": 136
+    },
+    {
+      "threshold": 0.2,
+      "positive_images": 49,
+      "negative_images_sampled": 196,
+      "detected_positive_images": 31,
+      "positive_images_with_overlap": 17,
+      "nonempty_dice": 0.1959474897866013,
+      "false_positive_images_in_sample": 109
+    },
+    {
+      "threshold": 0.3,
+      "positive_images": 49,
+      "negative_images_sampled": 196,
+      "detected_positive_images": 25,
+      "positive_images_with_overlap": 16,
+      "nonempty_dice": 0.0998138865002854,
+      "false_positive_images_in_sample": 72
+    },
+    {
+      "threshold": 0.4,
+      "positive_images": 49,
+      "negative_images_sampled": 196,
+      "detected_positive_images": 0,
+      "positive_images_with_overlap": 0,
+      "nonempty_dice": 0.0,
+      "false_positive_images_in_sample": 0
+    },
+    {
+      "threshold": 0.5,
+      "positive_images": 49,
+      "negative_images_sampled": 196,
+      "detected_positive_images": 0,
+      "positive_images_with_overlap": 0,
+      "nonempty_dice": 0.0,
+      "false_positive_images_in_sample": 0
+    }
+  ],
+  "seconds": 356.9914152400015
+}

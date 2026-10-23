@@ -1,0 +1,8332 @@
+[
+  {
+    "image": "026183d85.jpg",
+    "true_area": 2212,
+    "max_probability": 0.35585352778434753,
+    "mean_probability_on_truth": 0.20586755871772766,
+    "max_probability_on_truth": 0.35585352778434753,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 1866,
+        "intersection": 1558,
+        "dice": 0.7641000490436488
+      },
+      "0.2": {
+        "pred_area": 1477,
+        "intersection": 1274,
+        "dice": 0.6907020872865275
+      },
+      "0.3": {
+        "pred_area": 838,
+        "intersection": 707,
+        "dice": 0.4636065573770492
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      }
+    }
+  },
+  {
+    "image": "0c6720401.jpg",
+    "true_area": 5333,
+    "max_probability": 0.3586565852165222,
+    "mean_probability_on_truth": 0.19883444905281067,
+    "max_probability_on_truth": 0.3586565852165222,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 4608,
+        "intersection": 3724,
+        "dice": 0.7492204003621366
+      },
+      "0.2": {
+        "pred_area": 3083,
+        "intersection": 2945,
+        "dice": 0.6998574144486692
+      },
+      "0.3": {
+        "pred_area": 1969,
+        "intersection": 1963,
+        "dice": 0.5376609148178582
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      }
+    }
+  },
+  {
+    "image": "101648543.jpg",
+    "true_area": 2416,
+    "max_probability": 0.36557263135910034,
+    "mean_probability_on_truth": 0.29165950417518616,
+    "max_probability_on_truth": 0.36557263135910034,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 5545,
+        "intersection": 2348,
+        "dice": 0.5898756437633463
+      },
+      "0.2": {
+        "pred_area": 3682,
+        "intersection": 2300,
+        "dice": 0.7543456871105281
+      },
+      "0.3": {
+        "pred_area": 1583,
+        "intersection": 1257,
+        "dice": 0.6286571642910728
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      }
+    }
+  },
+  {
+    "image": "12274ea9c.jpg",
+    "true_area": 2052,
+    "max_probability": 0.36815646290779114,
+    "mean_probability_on_truth": 0.3093176782131195,
+    "max_probability_on_truth": 0.36815646290779114,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 4287,
+        "intersection": 2052,
+        "dice": 0.6474207288215806
+      },
+      "0.2": {
+        "pred_area": 3812,
+        "intersection": 2041,
+        "dice": 0.6961118690313779
+      },
+      "0.3": {
+        "pred_area": 2147,
+        "intersection": 1279,
+        "dice": 0.6091926649202191
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      }
+    }
+  },
+  {
+    "image": "156a74a49.jpg",
+    "true_area": 3200,
+    "max_probability": 0.18266506493091583,
+    "mean_probability_on_truth": 0.008711591362953186,
+    "max_probability_on_truth": 0.03647877275943756,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 206,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      }
+    }
+  },
+  {
+    "image": "163ff3547.jpg",
+    "true_area": 2647,
+    "max_probability": 0.06438745558261871,
+    "mean_probability_on_truth": 0.01174140814691782,
+    "max_probability_on_truth": 0.06438745558261871,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      }
+    }
+  },
+  {
+    "image": "17ac2163c.jpg",
+    "true_area": 5945,
+    "max_probability": 0.2009000927209854,
+    "mean_probability_on_truth": 0.024809468537569046,
+    "max_probability_on_truth": 0.2009000927209854,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 390,
+        "intersection": 390,
+        "dice": 0.12312549329123915
+      },
+      "0.2": {
+        "pred_area": 1,
+        "intersection": 1,
+        "dice": 0.0003363605785401951
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      }
+    }
+  },
+  {
+    "image": "18ba753ff.jpg",
+    "true_area": 1110,
+    "max_probability": 0.007385126780718565,
+    "mean_probability_on_truth": 0.0023109109606593847,
+    "max_probability_on_truth": 0.0032275794073939323,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      }
+    }
+  },
+  {
+    "image": "2012a6d02.jpg",
+    "true_area": 931,
+    "max_probability": 0.016457049176096916,
+    "mean_probability_on_truth": 0.007215279620140791,
+    "max_probability_on_truth": 0.016457049176096916,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      }
+    }
+  },
+  {
+    "image": "268446e17.jpg",
+    "true_area": 1313,
+    "max_probability": 0.3485323190689087,
+    "mean_probability_on_truth": 0.0005240714526735246,
+    "max_probability_on_truth": 0.0019464329816401005,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 3998,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 2887,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 1150,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      }
+    }
+  },
+  {
+    "image": "2789df930.jpg",
+    "true_area": 1564,
+    "max_probability": 0.006857562810182571,
+    "mean_probability_on_truth": 0.0027040536515414715,
+    "max_probability_on_truth": 0.00508062494918704,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      }
+    }
+  },
+  {
+    "image": "2a7f8bab0.jpg",
+    "true_area": 2609,
+    "max_probability": 0.09567811340093613,
+    "mean_probability_on_truth": 0.021025098860263824,
+    "max_probability_on_truth": 0.09567811340093613,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      }
+    }
+  },
+  {
+    "image": "3088a6a0d.jpg",
+    "true_area": 3213,
+    "max_probability": 0.014238813892006874,
+    "mean_probability_on_truth": 0.002927331253886223,
+    "max_probability_on_truth": 0.014238813892006874,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      }
+    }
+  },
+  {
+    "image": "338d3b828.jpg",
+    "true_area": 1159,
+    "max_probability": 0.27690190076828003,
+    "mean_probability_on_truth": 0.006239480338990688,
+    "max_probability_on_truth": 0.016593364998698235,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 534,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 118,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      }
+    }
+  },
+  {
+    "image": "38c25b61a.jpg",
+    "true_area": 4613,
+    "max_probability": 0.27913209795951843,
+    "mean_probability_on_truth": 0.00022448475647252053,
+    "max_probability_on_truth": 0.0009909123182296753,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 1545,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 697,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      }
+    }
+  },
+  {
+    "image": "41f5ea1f2.jpg",
+    "true_area": 1061,
+    "max_probability": 0.21014221012592316,
+    "mean_probability_on_truth": 0.005808508954942226,
+    "max_probability_on_truth": 0.00858866423368454,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 630,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 8,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      }
+    }
+  },
+  {
+    "image": "488922ac2.jpg",
+    "true_area": 1947,
+    "max_probability": 0.39066416025161743,
+    "mean_probability_on_truth": 0.23564469814300537,
+    "max_probability_on_truth": 0.33731821179389954,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 3907,
+        "intersection": 1808,
+        "dice": 0.6176973009907756
+      },
+      "0.2": {
+        "pred_area": 2533,
+        "intersection": 1625,
+        "dice": 0.7254464285714286
+      },
+      "0.3": {
+        "pred_area": 376,
+        "intersection": 114,
+        "dice": 0.09814894532931553
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      }
+    }
+  },
+  {
+    "image": "53f2e3c44.jpg",
+    "true_area": 2593,
+    "max_probability": 0.3322918117046356,
+    "mean_probability_on_truth": 0.0028184745460748672,
+    "max_probability_on_truth": 0.005122324451804161,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 1113,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 566,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 136,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      }
+    }
+  },
+  {
+    "image": "599251689.jpg",
+    "true_area": 2816,
+    "max_probability": 0.357818067073822,
+    "mean_probability_on_truth": 0.22361443936824799,
+    "max_probability_on_truth": 0.357818067073822,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 4252,
+        "intersection": 2795,
+        "dice": 0.7908885116015846
+      },
+      "0.2": {
+        "pred_area": 2866,
+        "intersection": 1779,
+        "dice": 0.6261879619852164
+      },
+      "0.3": {
+        "pred_area": 576,
+        "intersection": 349,
+        "dice": 0.20577830188679244
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      }
+    }
+  },
+  {
+    "image": "5ca7fcc19.jpg",
+    "true_area": 3492,
+    "max_probability": 0.008498415350914001,
+    "mean_probability_on_truth": 0.0012733018957078457,
+    "max_probability_on_truth": 0.008498415350914001,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      }
+    }
+  },
+  {
+    "image": "67a9dd552.jpg",
+    "true_area": 2916,
+    "max_probability": 0.05217859894037247,
+    "mean_probability_on_truth": 0.007849724031984806,
+    "max_probability_on_truth": 0.05217859894037247,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      }
+    }
+  },
+  {
+    "image": "6b53b62be.jpg",
+    "true_area": 1718,
+    "max_probability": 0.037073519080877304,
+    "mean_probability_on_truth": 0.014472400769591331,
+    "max_probability_on_truth": 0.037073519080877304,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      }
+    }
+  },
+  {
+    "image": "6fdf2d1be.jpg",
+    "true_area": 5314,
+    "max_probability": 0.3086870312690735,
+    "mean_probability_on_truth": 0.005752726458013058,
+    "max_probability_on_truth": 0.03001837246119976,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 1450,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 384,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 11,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      }
+    }
+  },
+  {
+    "image": "7970f0008.jpg",
+    "true_area": 6807,
+    "max_probability": 0.37492841482162476,
+    "mean_probability_on_truth": 0.10829819738864899,
+    "max_probability_on_truth": 0.37492841482162476,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 4339,
+        "intersection": 2834,
+        "dice": 0.5085232370357079
+      },
+      "0.2": {
+        "pred_area": 1909,
+        "intersection": 1328,
+        "dice": 0.304726938962827
+      },
+      "0.3": {
+        "pred_area": 582,
+        "intersection": 511,
+        "dice": 0.13831370956827718
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      }
+    }
+  },
+  {
+    "image": "7f3181e44.jpg",
+    "true_area": 2816,
+    "max_probability": 0.014238719828426838,
+    "mean_probability_on_truth": 0.002975666429847479,
+    "max_probability_on_truth": 0.014238719828426838,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      }
+    }
+  },
+  {
+    "image": "85294cff9.jpg",
+    "true_area": 989,
+    "max_probability": 0.25407078862190247,
+    "mean_probability_on_truth": 0.057028282433748245,
+    "max_probability_on_truth": 0.1608598679304123,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 573,
+        "intersection": 166,
+        "dice": 0.21254801536491677
+      },
+      "0.2": {
+        "pred_area": 104,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      }
+    }
+  },
+  {
+    "image": "8ed6b8054.jpg",
+    "true_area": 2471,
+    "max_probability": 0.0034958405885845423,
+    "mean_probability_on_truth": 7.658095273654908e-05,
+    "max_probability_on_truth": 0.0008714760770089924,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      }
+    }
+  },
+  {
+    "image": "8f81e6d35.jpg",
+    "true_area": 3004,
+    "max_probability": 0.3130369484424591,
+    "mean_probability_on_truth": 0.0011543282307684422,
+    "max_probability_on_truth": 0.004924391396343708,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 2085,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 624,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 60,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      }
+    }
+  },
+  {
+    "image": "933675d91.jpg",
+    "true_area": 3377,
+    "max_probability": 0.3440171480178833,
+    "mean_probability_on_truth": 0.1740400791168213,
+    "max_probability_on_truth": 0.3440171480178833,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 4028,
+        "intersection": 2407,
+        "dice": 0.650101282916948
+      },
+      "0.2": {
+        "pred_area": 2061,
+        "intersection": 1605,
+        "dice": 0.5902905479955867
+      },
+      "0.3": {
+        "pred_area": 120,
+        "intersection": 120,
+        "dice": 0.06863025450386046
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      }
+    }
+  },
+  {
+    "image": "98937deb7.jpg",
+    "true_area": 3241,
+    "max_probability": 0.35696738958358765,
+    "mean_probability_on_truth": 0.18761080503463745,
+    "max_probability_on_truth": 0.35303205251693726,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 4438,
+        "intersection": 2248,
+        "dice": 0.5854929027217085
+      },
+      "0.2": {
+        "pred_area": 1983,
+        "intersection": 1619,
+        "dice": 0.6198315467075038
+      },
+      "0.3": {
+        "pred_area": 691,
+        "intersection": 664,
+        "dice": 0.3377416073245168
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      }
+    }
+  },
+  {
+    "image": "9eb76f829.jpg",
+    "true_area": 5005,
+    "max_probability": 0.35255420207977295,
+    "mean_probability_on_truth": 0.052289433777332306,
+    "max_probability_on_truth": 0.35255420207977295,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 1101,
+        "intersection": 809,
+        "dice": 0.26498526039960696
+      },
+      "0.2": {
+        "pred_area": 826,
+        "intersection": 703,
+        "dice": 0.2411250214371463
+      },
+      "0.3": {
+        "pred_area": 456,
+        "intersection": 409,
+        "dice": 0.14978941585790148
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      }
+    }
+  },
+  {
+    "image": "a44dd8116.jpg",
+    "true_area": 3783,
+    "max_probability": 0.36890387535095215,
+    "mean_probability_on_truth": 0.01523900032043457,
+    "max_probability_on_truth": 0.07877844572067261,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 3307,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 2402,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 1238,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      }
+    }
+  },
+  {
+    "image": "a56df9123.jpg",
+    "true_area": 316,
+    "max_probability": 0.31657305359840393,
+    "mean_probability_on_truth": 0.06089260056614876,
+    "max_probability_on_truth": 0.12649820744991302,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 2406,
+        "intersection": 79,
+        "dice": 0.05804555473916238
+      },
+      "0.2": {
+        "pred_area": 1615,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 214,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      }
+    }
+  },
+  {
+    "image": "acd30bd6a.jpg",
+    "true_area": 2665,
+    "max_probability": 0.3522156774997711,
+    "mean_probability_on_truth": 0.1966383308172226,
+    "max_probability_on_truth": 0.3491158187389374,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 3215,
+        "intersection": 2250,
+        "dice": 0.7653061224489796
+      },
+      "0.2": {
+        "pred_area": 2146,
+        "intersection": 1614,
+        "dice": 0.6709623778840158
+      },
+      "0.3": {
+        "pred_area": 248,
+        "intersection": 102,
+        "dice": 0.07003089598352215
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      }
+    }
+  },
+  {
+    "image": "aeb94b95f.jpg",
+    "true_area": 1436,
+    "max_probability": 0.0042442562989890575,
+    "mean_probability_on_truth": 0.001992457080632448,
+    "max_probability_on_truth": 0.003698074258863926,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      }
+    }
+  },
+  {
+    "image": "b3a8bd174.jpg",
+    "true_area": 7004,
+    "max_probability": 0.3481487035751343,
+    "mean_probability_on_truth": 0.061458770185709,
+    "max_probability_on_truth": 0.3481487035751343,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 1542,
+        "intersection": 1426,
+        "dice": 0.33372337935876434
+      },
+      "0.2": {
+        "pred_area": 1053,
+        "intersection": 1051,
+        "dice": 0.26089115055231477
+      },
+      "0.3": {
+        "pred_area": 503,
+        "intersection": 503,
+        "dice": 0.1340082589583056
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      }
+    }
+  },
+  {
+    "image": "b98aee209.jpg",
+    "true_area": 1813,
+    "max_probability": 0.3440672755241394,
+    "mean_probability_on_truth": 0.0012989186216145754,
+    "max_probability_on_truth": 0.006333940662443638,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 3129,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 848,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 64,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      }
+    }
+  },
+  {
+    "image": "bb3421ee8.jpg",
+    "true_area": 4124,
+    "max_probability": 0.36218640208244324,
+    "mean_probability_on_truth": 0.17955739796161652,
+    "max_probability_on_truth": 0.36218640208244324,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 4143,
+        "intersection": 3037,
+        "dice": 0.7347284383694206
+      },
+      "0.2": {
+        "pred_area": 3249,
+        "intersection": 2464,
+        "dice": 0.6683846466838465
+      },
+      "0.3": {
+        "pred_area": 435,
+        "intersection": 218,
+        "dice": 0.09563500767712217
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      }
+    }
+  },
+  {
+    "image": "bbc246c1b.jpg",
+    "true_area": 1267,
+    "max_probability": 0.3566266596317291,
+    "mean_probability_on_truth": 0.26200300455093384,
+    "max_probability_on_truth": 0.3566266596317291,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 1809,
+        "intersection": 1085,
+        "dice": 0.7054616384915474
+      },
+      "0.2": {
+        "pred_area": 1514,
+        "intersection": 1050,
+        "dice": 0.7551240560949298
+      },
+      "0.3": {
+        "pred_area": 761,
+        "intersection": 668,
+        "dice": 0.6587771203155819
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      }
+    }
+  },
+  {
+    "image": "c35fa49e2.jpg",
+    "true_area": 3967,
+    "max_probability": 0.3414901793003082,
+    "mean_probability_on_truth": 0.004678817465901375,
+    "max_probability_on_truth": 0.01580077037215233,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 5241,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 3483,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 739,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      }
+    }
+  },
+  {
+    "image": "caf49d870.jpg",
+    "true_area": 1470,
+    "max_probability": 0.2932180166244507,
+    "mean_probability_on_truth": 0.010266127996146679,
+    "max_probability_on_truth": 0.039441924542188644,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 828,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 325,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      }
+    }
+  },
+  {
+    "image": "d0d818b7d.jpg",
+    "true_area": 1736,
+    "max_probability": 0.1389402449131012,
+    "mean_probability_on_truth": 0.018597789108753204,
+    "max_probability_on_truth": 0.10110683739185333,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 105,
+        "intersection": 2,
+        "dice": 0.0021727322107550242
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      }
+    }
+  },
+  {
+    "image": "d75725fc3.jpg",
+    "true_area": 2477,
+    "max_probability": 0.12139831483364105,
+    "mean_probability_on_truth": 0.01147360447794199,
+    "max_probability_on_truth": 0.121184803545475,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 44,
+        "intersection": 23,
+        "dice": 0.01824672748909163
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      }
+    }
+  },
+  {
+    "image": "e9a938877.jpg",
+    "true_area": 4736,
+    "max_probability": 0.34792327880859375,
+    "mean_probability_on_truth": 0.2009172886610031,
+    "max_probability_on_truth": 0.34792327880859375,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 3576,
+        "intersection": 3554,
+        "dice": 0.8551491819056786
+      },
+      "0.2": {
+        "pred_area": 2863,
+        "intersection": 2863,
+        "dice": 0.7535202000263193
+      },
+      "0.3": {
+        "pred_area": 815,
+        "intersection": 815,
+        "dice": 0.29364078544406413
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      }
+    }
+  },
+  {
+    "image": "efe5694bf.jpg",
+    "true_area": 3564,
+    "max_probability": 0.026163039728999138,
+    "mean_probability_on_truth": 0.0034808539785444736,
+    "max_probability_on_truth": 0.010033481754362583,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      }
+    }
+  },
+  {
+    "image": "f17e982f9.jpg",
+    "true_area": 1102,
+    "max_probability": 0.13801869750022888,
+    "mean_probability_on_truth": 0.06551679968833923,
+    "max_probability_on_truth": 0.13801869750022888,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 137,
+        "intersection": 137,
+        "dice": 0.22114608555286522
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      }
+    }
+  },
+  {
+    "image": "f3e1e7c47.jpg",
+    "true_area": 2341,
+    "max_probability": 0.3607879877090454,
+    "mean_probability_on_truth": 0.002779972506687045,
+    "max_probability_on_truth": 0.00939329992979765,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 2738,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 1997,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 1149,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      }
+    }
+  },
+  {
+    "image": "f7b1dd93a.jpg",
+    "true_area": 3989,
+    "max_probability": 0.3588218092918396,
+    "mean_probability_on_truth": 0.13368113338947296,
+    "max_probability_on_truth": 0.3588218092918396,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 2220,
+        "intersection": 1763,
+        "dice": 0.5678853277500403
+      },
+      "0.2": {
+        "pred_area": 1839,
+        "intersection": 1584,
+        "dice": 0.543582704186685
+      },
+      "0.3": {
+        "pred_area": 1055,
+        "intersection": 1012,
+        "dice": 0.401268834258525
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      }
+    }
+  },
+  {
+    "image": "f9b337a42.jpg",
+    "true_area": 7885,
+    "max_probability": 0.1912059485912323,
+    "mean_probability_on_truth": 0.01663454994559288,
+    "max_probability_on_truth": 0.1912059485912323,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 352,
+        "intersection": 352,
+        "dice": 0.08546801019788758
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 0.0
+      }
+    }
+  },
+  {
+    "image": "303613d84.jpg",
+    "true_area": 0,
+    "max_probability": 0.026301434263586998,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "0becaa911.jpg",
+    "true_area": 0,
+    "max_probability": 0.00848859827965498,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "758e655a8.jpg",
+    "true_area": 0,
+    "max_probability": 0.34803858399391174,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 3901,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 1710,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 128,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "68d3c7be2.jpg",
+    "true_area": 0,
+    "max_probability": 0.35518309473991394,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 3374,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 1109,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 521,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "5f925b62b.jpg",
+    "true_area": 0,
+    "max_probability": 0.005553052294999361,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "3bcf2cde9.jpg",
+    "true_area": 0,
+    "max_probability": 0.026673125103116035,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "2d196857a.jpg",
+    "true_area": 0,
+    "max_probability": 0.30595290660858154,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 2415,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 401,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 9,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "e8b114d2a.jpg",
+    "true_area": 0,
+    "max_probability": 0.1717400848865509,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 117,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "27116d428.jpg",
+    "true_area": 0,
+    "max_probability": 0.15547876060009003,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 87,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "fab8b357c.jpg",
+    "true_area": 0,
+    "max_probability": 0.11616547405719757,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 25,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "b49b2a0ee.jpg",
+    "true_area": 0,
+    "max_probability": 0.21920301020145416,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 631,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 20,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "0e5e3f570.jpg",
+    "true_area": 0,
+    "max_probability": 0.3254276216030121,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 1483,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 427,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 66,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "0db535c8c.jpg",
+    "true_area": 0,
+    "max_probability": 0.36671119928359985,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 6796,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 4349,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 835,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "29420c716.jpg",
+    "true_area": 0,
+    "max_probability": 0.38926374912261963,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 591,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 44,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 20,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "5d2fe9f45.jpg",
+    "true_area": 0,
+    "max_probability": 0.14173342287540436,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 61,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "639f2d9e3.jpg",
+    "true_area": 0,
+    "max_probability": 0.0040955254808068275,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "d767630fe.jpg",
+    "true_area": 0,
+    "max_probability": 0.023023810237646103,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "0cc44081a.jpg",
+    "true_area": 0,
+    "max_probability": 0.18460820615291595,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 546,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "ee57ddb83.jpg",
+    "true_area": 0,
+    "max_probability": 0.3508819043636322,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 2667,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 1819,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 510,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "54cdc22ca.jpg",
+    "true_area": 0,
+    "max_probability": 0.33587023615837097,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 2170,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 1120,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 154,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "e89c99064.jpg",
+    "true_area": 0,
+    "max_probability": 0.3623832166194916,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 14277,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 3912,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 1178,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "b3b742102.jpg",
+    "true_area": 0,
+    "max_probability": 0.2905513048171997,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 562,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 113,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "5e1f34810.jpg",
+    "true_area": 0,
+    "max_probability": 0.22655826807022095,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 509,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 53,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "c13a6a141.jpg",
+    "true_area": 0,
+    "max_probability": 0.19436421990394592,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 130,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "fa6905f76.jpg",
+    "true_area": 0,
+    "max_probability": 0.024573076516389847,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "773d61c10.jpg",
+    "true_area": 0,
+    "max_probability": 0.004544347058981657,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "0360edfb8.jpg",
+    "true_area": 0,
+    "max_probability": 0.3598286807537079,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 8687,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 4640,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 2247,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "45059bf5b.jpg",
+    "true_area": 0,
+    "max_probability": 0.23207557201385498,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 173,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 19,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "b4c840216.jpg",
+    "true_area": 0,
+    "max_probability": 0.0645403265953064,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "91a713a73.jpg",
+    "true_area": 0,
+    "max_probability": 0.2854370176792145,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 361,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 89,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "7734ac61d.jpg",
+    "true_area": 0,
+    "max_probability": 0.03809307515621185,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "43529152d.jpg",
+    "true_area": 0,
+    "max_probability": 0.2946297824382782,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 539,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 153,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "5bbb8cea1.jpg",
+    "true_area": 0,
+    "max_probability": 0.19850915670394897,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 218,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "9082ff635.jpg",
+    "true_area": 0,
+    "max_probability": 0.0492217093706131,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "2cffa3a1a.jpg",
+    "true_area": 0,
+    "max_probability": 0.04446614533662796,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "28eea1b0a.jpg",
+    "true_area": 0,
+    "max_probability": 0.03342568501830101,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "a30d21396.jpg",
+    "true_area": 0,
+    "max_probability": 0.0055328658781945705,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "2a374ceaa.jpg",
+    "true_area": 0,
+    "max_probability": 0.377098947763443,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 415,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 25,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 12,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "998a49fb9.jpg",
+    "true_area": 0,
+    "max_probability": 0.19396471977233887,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 202,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "93851869f.jpg",
+    "true_area": 0,
+    "max_probability": 0.3552408516407013,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 19265,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 8697,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 1489,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "718c48feb.jpg",
+    "true_area": 0,
+    "max_probability": 0.06159511208534241,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "141b21ab9.jpg",
+    "true_area": 0,
+    "max_probability": 0.03841312974691391,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "c5a76e581.jpg",
+    "true_area": 0,
+    "max_probability": 0.3048091530799866,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 770,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 96,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 2,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "e4e295238.jpg",
+    "true_area": 0,
+    "max_probability": 0.006693580187857151,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "36e512a45.jpg",
+    "true_area": 0,
+    "max_probability": 0.29330024123191833,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 94,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 12,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "a29c6239f.jpg",
+    "true_area": 0,
+    "max_probability": 0.3154090344905853,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 1372,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 600,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 16,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "22e9830a3.jpg",
+    "true_area": 0,
+    "max_probability": 0.3438240885734558,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 2924,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 1717,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 287,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "eb8aa849b.jpg",
+    "true_area": 0,
+    "max_probability": 0.2538408637046814,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 317,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 22,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "7e56364ce.jpg",
+    "true_area": 0,
+    "max_probability": 0.3617938458919525,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 3454,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 2663,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 745,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "9ad1ad629.jpg",
+    "true_area": 0,
+    "max_probability": 0.2586914598941803,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 983,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 150,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "f5b46c3c1.jpg",
+    "true_area": 0,
+    "max_probability": 0.3545597791671753,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 10528,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 5941,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 455,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "51aa20891.jpg",
+    "true_area": 0,
+    "max_probability": 0.3104902505874634,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 1821,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 705,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 13,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "1e7c529a2.jpg",
+    "true_area": 0,
+    "max_probability": 0.36047956347465515,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 2740,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 1279,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 723,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "1522f11af.jpg",
+    "true_area": 0,
+    "max_probability": 0.012754268944263458,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "61f93524d.jpg",
+    "true_area": 0,
+    "max_probability": 0.3373372256755829,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 15340,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 4921,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 402,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "7c847f7b3.jpg",
+    "true_area": 0,
+    "max_probability": 0.2743191123008728,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 1080,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 563,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "23783382d.jpg",
+    "true_area": 0,
+    "max_probability": 0.3018871545791626,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 7191,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 1190,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 1,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "63a3aaaa4.jpg",
+    "true_area": 0,
+    "max_probability": 0.012505806982517242,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "2c75ffa0e.jpg",
+    "true_area": 0,
+    "max_probability": 0.1926419734954834,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 176,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "c34fc79b6.jpg",
+    "true_area": 0,
+    "max_probability": 0.2986329197883606,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 475,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 59,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "9c7a6cf21.jpg",
+    "true_area": 0,
+    "max_probability": 0.34885767102241516,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 7705,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 2237,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 307,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "45e2d90b0.jpg",
+    "true_area": 0,
+    "max_probability": 0.004474984016269445,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "9f15729ba.jpg",
+    "true_area": 0,
+    "max_probability": 0.34426021575927734,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 2303,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 1356,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 40,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "9825b8905.jpg",
+    "true_area": 0,
+    "max_probability": 0.012759944424033165,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "59e3cf08c.jpg",
+    "true_area": 0,
+    "max_probability": 0.03641396760940552,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "729674b1c.jpg",
+    "true_area": 0,
+    "max_probability": 0.327041357755661,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 1899,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 724,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 48,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "1f8ea6702.jpg",
+    "true_area": 0,
+    "max_probability": 0.3094935715198517,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 426,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 64,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 5,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "49eee55c2.jpg",
+    "true_area": 0,
+    "max_probability": 0.3553316593170166,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 3207,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 1826,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 93,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "e4547788b.jpg",
+    "true_area": 0,
+    "max_probability": 0.3695268929004669,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 11064,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 5816,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 1395,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "68a931b71.jpg",
+    "true_area": 0,
+    "max_probability": 0.3011559844017029,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 1284,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 122,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 1,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "463108c67.jpg",
+    "true_area": 0,
+    "max_probability": 0.21453224122524261,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 292,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 8,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "c6d3371a8.jpg",
+    "true_area": 0,
+    "max_probability": 0.05843345820903778,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "a2d35199d.jpg",
+    "true_area": 0,
+    "max_probability": 0.1741560995578766,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 96,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "74211b046.jpg",
+    "true_area": 0,
+    "max_probability": 0.11659659445285797,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 19,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "ed4cff821.jpg",
+    "true_area": 0,
+    "max_probability": 0.35959741473197937,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 3136,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 1920,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 623,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "5d6a267d1.jpg",
+    "true_area": 0,
+    "max_probability": 0.12504301965236664,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 32,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "8bb5ada5c.jpg",
+    "true_area": 0,
+    "max_probability": 0.042877763509750366,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "196d65e42.jpg",
+    "true_area": 0,
+    "max_probability": 0.3682561218738556,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 7177,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 3706,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 1913,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "628aaf2df.jpg",
+    "true_area": 0,
+    "max_probability": 0.2302127480506897,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 392,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 38,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "0e9356159.jpg",
+    "true_area": 0,
+    "max_probability": 0.37164586782455444,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 5743,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 3146,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 1633,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "868759698.jpg",
+    "true_area": 0,
+    "max_probability": 0.33224812150001526,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 6546,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 2183,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 194,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "ab6019ac1.jpg",
+    "true_area": 0,
+    "max_probability": 0.010908366180956364,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "7311d533d.jpg",
+    "true_area": 0,
+    "max_probability": 0.012804887257516384,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "1d405ef29.jpg",
+    "true_area": 0,
+    "max_probability": 0.14791664481163025,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 100,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "5a8203514.jpg",
+    "true_area": 0,
+    "max_probability": 0.37296536564826965,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 19663,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 6031,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 2070,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "f14b1878e.jpg",
+    "true_area": 0,
+    "max_probability": 0.012044441886246204,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "8645f73f1.jpg",
+    "true_area": 0,
+    "max_probability": 0.2591114342212677,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 114,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 20,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "5acf0f8cd.jpg",
+    "true_area": 0,
+    "max_probability": 0.00918427761644125,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "d5425f5f5.jpg",
+    "true_area": 0,
+    "max_probability": 0.37045687437057495,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 3774,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 730,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 113,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "a93b52e93.jpg",
+    "true_area": 0,
+    "max_probability": 0.30895736813545227,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 1151,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 327,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 8,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "c5406794b.jpg",
+    "true_area": 0,
+    "max_probability": 0.11633607000112534,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 36,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "3e8e9acc6.jpg",
+    "true_area": 0,
+    "max_probability": 0.09799056500196457,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "71b1e90a5.jpg",
+    "true_area": 0,
+    "max_probability": 0.22840899229049683,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 932,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 9,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "693f88388.jpg",
+    "true_area": 0,
+    "max_probability": 0.21841566264629364,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 1086,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 13,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "ee8e55668.jpg",
+    "true_area": 0,
+    "max_probability": 0.2583046853542328,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 228,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 53,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "e5dd1ea97.jpg",
+    "true_area": 0,
+    "max_probability": 0.2827397882938385,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 435,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 90,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "70c0aebb4.jpg",
+    "true_area": 0,
+    "max_probability": 0.28307628631591797,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 466,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 143,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "f8496f4e2.jpg",
+    "true_area": 0,
+    "max_probability": 0.12761440873146057,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 24,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "b707e8c7b.jpg",
+    "true_area": 0,
+    "max_probability": 0.004198520444333553,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "f81b617ec.jpg",
+    "true_area": 0,
+    "max_probability": 0.3632141649723053,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 24214,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 8481,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 1005,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "aabd69a55.jpg",
+    "true_area": 0,
+    "max_probability": 0.026589522138237953,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "9af9dc45b.jpg",
+    "true_area": 0,
+    "max_probability": 0.3697267174720764,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 4509,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 1500,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 292,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "5d4462d67.jpg",
+    "true_area": 0,
+    "max_probability": 0.21001207828521729,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 458,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 15,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "3b3daeb1b.jpg",
+    "true_area": 0,
+    "max_probability": 0.3437971770763397,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 2843,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 1329,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 118,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "d8bdca735.jpg",
+    "true_area": 0,
+    "max_probability": 0.010415909811854362,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "d3478f166.jpg",
+    "true_area": 0,
+    "max_probability": 0.34508562088012695,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 653,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 521,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 219,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "28146d20d.jpg",
+    "true_area": 0,
+    "max_probability": 0.08629816770553589,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "159b43d49.jpg",
+    "true_area": 0,
+    "max_probability": 0.35373055934906006,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 2089,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 1193,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 305,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "2fcd2c351.jpg",
+    "true_area": 0,
+    "max_probability": 0.025946201756596565,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "427085ef4.jpg",
+    "true_area": 0,
+    "max_probability": 0.3322816789150238,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 2162,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 411,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 18,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "454a0693a.jpg",
+    "true_area": 0,
+    "max_probability": 0.050345003604888916,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "b4af2291e.jpg",
+    "true_area": 0,
+    "max_probability": 0.0034633660688996315,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "fd9b1a987.jpg",
+    "true_area": 0,
+    "max_probability": 0.14654676616191864,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 28,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "1bdb7f26f.jpg",
+    "true_area": 0,
+    "max_probability": 0.338888555765152,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 382,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 31,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 8,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "a49cff42b.jpg",
+    "true_area": 0,
+    "max_probability": 0.35281944274902344,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 5353,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 1763,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 193,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "a36d791ee.jpg",
+    "true_area": 0,
+    "max_probability": 0.2943255603313446,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 2652,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 715,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "fd64f3fd7.jpg",
+    "true_area": 0,
+    "max_probability": 0.07727818936109543,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "c9091ca20.jpg",
+    "true_area": 0,
+    "max_probability": 0.1655096560716629,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 89,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "e1b18d841.jpg",
+    "true_area": 0,
+    "max_probability": 0.35509198904037476,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 6240,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 1231,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 118,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "6b0d038b9.jpg",
+    "true_area": 0,
+    "max_probability": 0.015765119343996048,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "ec2ce528a.jpg",
+    "true_area": 0,
+    "max_probability": 0.003524310886859894,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "059327fe3.jpg",
+    "true_area": 0,
+    "max_probability": 0.21372707188129425,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 581,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 6,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "316cafa11.jpg",
+    "true_area": 0,
+    "max_probability": 0.04187425225973129,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "e514a96ce.jpg",
+    "true_area": 0,
+    "max_probability": 0.3456023335456848,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 645,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 504,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 276,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "72754d67c.jpg",
+    "true_area": 0,
+    "max_probability": 0.014435160905122757,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "7e743dab7.jpg",
+    "true_area": 0,
+    "max_probability": 0.009619063697755337,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "b9acd9a0f.jpg",
+    "true_area": 0,
+    "max_probability": 0.17920444905757904,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 119,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "446ba8f9b.jpg",
+    "true_area": 0,
+    "max_probability": 0.27771198749542236,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 2649,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 433,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "c3528b146.jpg",
+    "true_area": 0,
+    "max_probability": 0.2908453345298767,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 565,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 152,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "01e020dc5.jpg",
+    "true_area": 0,
+    "max_probability": 0.35434991121292114,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 21101,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 6320,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 980,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "710ce771d.jpg",
+    "true_area": 0,
+    "max_probability": 0.2971542477607727,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 252,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 55,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "d5b6bb4bb.jpg",
+    "true_area": 0,
+    "max_probability": 0.27653512358665466,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 1784,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 277,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "4c770beb5.jpg",
+    "true_area": 0,
+    "max_probability": 0.3648849427700043,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 6205,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 3618,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 1025,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "d7c5eab80.jpg",
+    "true_area": 0,
+    "max_probability": 0.08759789168834686,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "2f03dc294.jpg",
+    "true_area": 0,
+    "max_probability": 0.023389795795083046,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "801d299ac.jpg",
+    "true_area": 0,
+    "max_probability": 0.29951679706573486,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 645,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 162,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "a09855d99.jpg",
+    "true_area": 0,
+    "max_probability": 0.3611409366130829,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 3839,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 1754,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 569,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "459790d82.jpg",
+    "true_area": 0,
+    "max_probability": 0.18468649685382843,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 154,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "e5f1d5a38.jpg",
+    "true_area": 0,
+    "max_probability": 0.3631695806980133,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 3330,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 2362,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 1074,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "e2512d5f4.jpg",
+    "true_area": 0,
+    "max_probability": 0.33673691749572754,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 456,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 109,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 18,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "005f02e20.jpg",
+    "true_area": 0,
+    "max_probability": 0.32883891463279724,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 1788,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 766,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 101,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "ff001adfe.jpg",
+    "true_area": 0,
+    "max_probability": 0.38169413805007935,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 4938,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 3434,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 1786,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "8b6cfcf35.jpg",
+    "true_area": 0,
+    "max_probability": 0.3036573529243469,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 4231,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 326,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 2,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "d14c9c6e6.jpg",
+    "true_area": 0,
+    "max_probability": 0.36116528511047363,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 2461,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 1978,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 1317,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "0970201e2.jpg",
+    "true_area": 0,
+    "max_probability": 0.3011445105075836,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 732,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 182,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 1,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "3057569fa.jpg",
+    "true_area": 0,
+    "max_probability": 0.009837432764470577,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "9bc62ca61.jpg",
+    "true_area": 0,
+    "max_probability": 0.3610212504863739,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 6438,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 2791,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 963,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "8366824fe.jpg",
+    "true_area": 0,
+    "max_probability": 0.08929017931222916,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "66c456295.jpg",
+    "true_area": 0,
+    "max_probability": 0.11080144345760345,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 12,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "19ecb0e40.jpg",
+    "true_area": 0,
+    "max_probability": 0.17379963397979736,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 148,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "672dfd40c.jpg",
+    "true_area": 0,
+    "max_probability": 0.054721761494874954,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "26d12b1c1.jpg",
+    "true_area": 0,
+    "max_probability": 0.117075115442276,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 30,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "cfeaf9434.jpg",
+    "true_area": 0,
+    "max_probability": 0.35402780771255493,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 7823,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 4298,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 645,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "1e7a089c5.jpg",
+    "true_area": 0,
+    "max_probability": 0.06470496952533722,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "e3c8b3a70.jpg",
+    "true_area": 0,
+    "max_probability": 0.3640070855617523,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 13875,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 6121,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 1781,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "374d9c63f.jpg",
+    "true_area": 0,
+    "max_probability": 0.07589704543352127,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "37d1f8b36.jpg",
+    "true_area": 0,
+    "max_probability": 0.31979677081108093,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 7482,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 2110,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 91,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "cba8dc603.jpg",
+    "true_area": 0,
+    "max_probability": 0.006424038205295801,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "ea87a105c.jpg",
+    "true_area": 0,
+    "max_probability": 0.18973639607429504,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 250,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "4784189ec.jpg",
+    "true_area": 0,
+    "max_probability": 0.3735661804676056,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 554,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 24,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 13,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "71b815a2d.jpg",
+    "true_area": 0,
+    "max_probability": 0.3783586323261261,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 5375,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 1222,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 87,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "e13c54eb6.jpg",
+    "true_area": 0,
+    "max_probability": 0.2960242033004761,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 685,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 307,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "b51ceed06.jpg",
+    "true_area": 0,
+    "max_probability": 0.05488821864128113,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "5a9da43e1.jpg",
+    "true_area": 0,
+    "max_probability": 0.19192913174629211,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 85,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "e5dfaf632.jpg",
+    "true_area": 0,
+    "max_probability": 0.3134806156158447,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 1885,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 562,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 7,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "554ee47b6.jpg",
+    "true_area": 0,
+    "max_probability": 0.2093641310930252,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 225,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 9,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "8562a95b4.jpg",
+    "true_area": 0,
+    "max_probability": 0.3535434901714325,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 25812,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 8598,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 1698,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "aa92ea82d.jpg",
+    "true_area": 0,
+    "max_probability": 0.32724183797836304,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 557,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 193,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 19,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "a0906d0b3.jpg",
+    "true_area": 0,
+    "max_probability": 0.22636674344539642,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 760,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 35,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "babdf889d.jpg",
+    "true_area": 0,
+    "max_probability": 0.2998389005661011,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 647,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 332,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "dc845f534.jpg",
+    "true_area": 0,
+    "max_probability": 0.1578853279352188,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 106,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "c2562fab2.jpg",
+    "true_area": 0,
+    "max_probability": 0.0068668765015900135,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "3503a107c.jpg",
+    "true_area": 0,
+    "max_probability": 0.007304970175027847,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "69df9d97b.jpg",
+    "true_area": 0,
+    "max_probability": 0.2757553458213806,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 862,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 125,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "6057916d4.jpg",
+    "true_area": 0,
+    "max_probability": 0.34404075145721436,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 1089,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 360,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 73,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "1bead4843.jpg",
+    "true_area": 0,
+    "max_probability": 0.007165888790041208,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "91222b4c9.jpg",
+    "true_area": 0,
+    "max_probability": 0.25064706802368164,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 1834,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 114,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "0a1cade03.jpg",
+    "true_area": 0,
+    "max_probability": 0.09163392335176468,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "fa347a114.jpg",
+    "true_area": 0,
+    "max_probability": 0.36961039900779724,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 3343,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 371,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 15,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "ec3fe85d6.jpg",
+    "true_area": 0,
+    "max_probability": 0.21307827532291412,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 999,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 13,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "62b560fca.jpg",
+    "true_area": 0,
+    "max_probability": 0.14354325830936432,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 33,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "fa492c084.jpg",
+    "true_area": 0,
+    "max_probability": 0.07386240363121033,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "03f15daba.jpg",
+    "true_area": 0,
+    "max_probability": 0.0770212709903717,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "1efff24a0.jpg",
+    "true_area": 0,
+    "max_probability": 0.35454341769218445,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 9452,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 2189,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 149,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "1a382baf6.jpg",
+    "true_area": 0,
+    "max_probability": 0.36209890246391296,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 5818,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 3504,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 645,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "62638f27a.jpg",
+    "true_area": 0,
+    "max_probability": 0.04899200052022934,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "1deada184.jpg",
+    "true_area": 0,
+    "max_probability": 0.20776017010211945,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 388,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 5,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "0e1925eb6.jpg",
+    "true_area": 0,
+    "max_probability": 0.2947448790073395,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 1601,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 233,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "8e11e6dff.jpg",
+    "true_area": 0,
+    "max_probability": 0.2559572160243988,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 1991,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 220,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "daf330a10.jpg",
+    "true_area": 0,
+    "max_probability": 0.05056364834308624,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "65e2c4248.jpg",
+    "true_area": 0,
+    "max_probability": 0.11911903321743011,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 29,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "7740cc61d.jpg",
+    "true_area": 0,
+    "max_probability": 0.317028284072876,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 1420,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 603,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 10,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "cf5a6b951.jpg",
+    "true_area": 0,
+    "max_probability": 0.04672176390886307,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.2": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.3": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "5b922560e.jpg",
+    "true_area": 0,
+    "max_probability": 0.35791540145874023,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 3314,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 2189,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 935,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "390e9ea29.jpg",
+    "true_area": 0,
+    "max_probability": 0.35786837339401245,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 19133,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 5650,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 1528,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  },
+  {
+    "image": "f2ad0871c.jpg",
+    "true_area": 0,
+    "max_probability": 0.36060240864753723,
+    "mean_probability_on_truth": null,
+    "max_probability_on_truth": null,
+    "thresholds": {
+      "0.1": {
+        "pred_area": 10063,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.2": {
+        "pred_area": 2806,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.3": {
+        "pred_area": 209,
+        "intersection": 0,
+        "dice": 0.0
+      },
+      "0.4": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      },
+      "0.5": {
+        "pred_area": 0,
+        "intersection": 0,
+        "dice": 1.0
+      }
+    }
+  }
+]
