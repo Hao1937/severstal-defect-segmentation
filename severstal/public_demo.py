@@ -32,7 +32,7 @@ def save_overlay(image, masks, destination, label):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--images", default="data/severstal/test_images")
-    parser.add_argument("--weights", default="weights/lightforever")
+    parser.add_argument("--weights", default="weights/lightforever-converted")
     parser.add_argument("--output", default="runs/E01-r01")
     parser.add_argument("--limit", type=int, default=32)
     args = parser.parse_args()
@@ -78,7 +78,7 @@ def main():
     summary = {"images": len(files), "seconds": time.perf_counter() - began,
                "positive_images_per_class": counts.tolist(), "device": torch.cuda.get_device_name(0),
                "peak_gpu_mib": torch.cuda.max_memory_allocated() / 2 ** 20,
-               "weights": weights, "threshold": 0.5, "minimum_area": minimum_area,
+               "weights": weights, "weights_directory": args.weights, "threshold": 0.5, "minimum_area": minimum_area,
                "tta": ["identity", "horizontal_flip"], "aggregation": "mean_logits_then_sigmoid_then_inverse_tta_mean",
                "batch_size": 1, "precision": "float32", "evaluation": "unlabeled_test_demo",
                "git_commit": subprocess.check_output(["git", "rev-parse", "HEAD"], text=True).strip(),
