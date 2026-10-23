@@ -16,7 +16,8 @@
         "pred_area": 0,
         "dice": 0.0
       }
-    }
+    },
+    "approximate_from_float16": true
   },
   {
     "image": "8f81e6d35.jpg",
@@ -35,7 +36,8 @@
         "pred_area": 1082,
         "dice": 0.07684777288301517
       }
-    }
+    },
+    "approximate_from_float16": true
   },
   {
     "image": "3088a6a0d.jpg",
@@ -54,7 +56,8 @@
         "pred_area": 341,
         "dice": 0.19189645469893077
       }
-    }
+    },
+    "approximate_from_float16": true
   },
   {
     "image": "7f3181e44.jpg",
@@ -73,6 +76,7 @@
         "pred_area": 342,
         "dice": 0.19632678910702978
       }
-    }
+    },
+    "approximate_from_float16": true
   }
 ]
