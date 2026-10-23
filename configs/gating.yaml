@@ -1,0 +1,9 @@
+experiment: E04
+segmentation_run: runs/E02-r01
+classification_run: runs/E02-r02
+pixel_threshold: 0.5
+classification_threshold: 0.5
+minimum_areas: [100, 50, 200, 400]
+factor: 5
+branches: [raw, area, fixed5, hard, soft, dynamic]
+cache_probabilities: true
