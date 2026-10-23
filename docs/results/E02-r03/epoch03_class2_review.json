@@ -1,0 +1,35 @@
+{
+  "epoch": 3,
+  "overlap": 48,
+  "positive": 49,
+  "reference_cases": [
+    {
+      "image": "3088a6a0d.jpg",
+      "class_id": 2,
+      "dice": 0.6711359620094299,
+      "pred_area": 2157,
+      "true_area": 3213
+    },
+    {
+      "image": "7f3181e44.jpg",
+      "class_id": 2,
+      "dice": 0.6068771481513977,
+      "pred_area": 2157,
+      "true_area": 2816
+    },
+    {
+      "image": "8ed6b8054.jpg",
+      "class_id": 2,
+      "dice": 0.04895380884408951,
+      "pred_area": 62,
+      "true_area": 2471
+    },
+    {
+      "image": "8f81e6d35.jpg",
+      "class_id": 2,
+      "dice": 0.5616129040718079,
+      "pred_area": 3196,
+      "true_area": 3004
+    }
+  ]
+}

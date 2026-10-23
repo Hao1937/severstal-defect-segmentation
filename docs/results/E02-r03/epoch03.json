@@ -1,0 +1,43 @@
+{
+  "epoch": 3,
+  "loss": 0.075926392375117,
+  "train_seconds": 230.31419437700242,
+  "val_seconds": 46.67673671200464,
+  "peak_gpu_mib": 864.37451171875,
+  "learning_rate": 0.0003,
+  "metrics": {
+    "dice": 0.3576301347466685,
+    "nonempty_dice": 0.6194137059326503,
+    "classes": {
+      "1": {
+        "dice": 0.16994050433807364,
+        "nonempty_dice": 0.5599465246140624,
+        "image_class_recall": 1.0,
+        "false_positive_pairs": 2008,
+        "false_negative_pairs": 0
+      },
+      "2": {
+        "dice": 0.5469923390723119,
+        "nonempty_dice": 0.5946681719957566,
+        "image_class_recall": 1.0,
+        "false_positive_pairs": 1119,
+        "false_negative_pairs": 0
+      },
+      "3": {
+        "dice": 0.34700924913295567,
+        "nonempty_dice": 0.6236711187575248,
+        "image_class_recall": 0.9941747572815534,
+        "false_positive_pairs": 1254,
+        "false_negative_pairs": 6
+      },
+      "4": {
+        "dice": 0.3665784464433327,
+        "nonempty_dice": 0.6661138397408649,
+        "image_class_recall": 0.98125,
+        "false_positive_pairs": 1539,
+        "false_negative_pairs": 3
+      }
+    }
+  },
+  "best_score": 0.6194137059326503
+}
