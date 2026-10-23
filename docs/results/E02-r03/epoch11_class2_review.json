@@ -1,0 +1,383 @@
+{
+  "epoch": 11,
+  "metrics": {
+    "dice": 0.5448722368691888,
+    "nonempty_dice": 0.6701235641442616,
+    "classes": {
+      "1": {
+        "dice": 0.41616408223939755,
+        "nonempty_dice": 0.6102597918985776,
+        "image_class_recall": 0.994413407821229,
+        "false_positive_pairs": 1398,
+        "false_negative_pairs": 1
+      },
+      "2": {
+        "dice": 0.6677866192355266,
+        "nonempty_dice": 0.6492971583288543,
+        "image_class_recall": 1.0,
+        "false_positive_pairs": 818,
+        "false_negative_pairs": 0
+      },
+      "3": {
+        "dice": 0.4259758010707972,
+        "nonempty_dice": 0.6727215183417322,
+        "image_class_recall": 0.9990291262135922,
+        "false_positive_pairs": 1106,
+        "false_negative_pairs": 1
+      },
+      "4": {
+        "dice": 0.669562444931034,
+        "nonempty_dice": 0.7267499159788713,
+        "image_class_recall": 0.99375,
+        "false_positive_pairs": 787,
+        "false_negative_pairs": 1
+      }
+    }
+  },
+  "overlap": 49,
+  "class2_positive_rows": [
+    {
+      "image": "026183d85.jpg",
+      "class_id": 2,
+      "dice": 0.8248479962348938,
+      "pred_area": 3052,
+      "true_area": 2212
+    },
+    {
+      "image": "0c6720401.jpg",
+      "class_id": 2,
+      "dice": 0.5890579223632812,
+      "pred_area": 2819,
+      "true_area": 5333
+    },
+    {
+      "image": "101648543.jpg",
+      "class_id": 2,
+      "dice": 0.7092952728271484,
+      "pred_area": 4168,
+      "true_area": 2416
+    },
+    {
+      "image": "12274ea9c.jpg",
+      "class_id": 2,
+      "dice": 0.6966292262077332,
+      "pred_area": 3733,
+      "true_area": 2052
+    },
+    {
+      "image": "156a74a49.jpg",
+      "class_id": 2,
+      "dice": 0.6583423614501953,
+      "pred_area": 2326,
+      "true_area": 3200
+    },
+    {
+      "image": "163ff3547.jpg",
+      "class_id": 2,
+      "dice": 0.8188115358352661,
+      "pred_area": 2839,
+      "true_area": 2647
+    },
+    {
+      "image": "17ac2163c.jpg",
+      "class_id": 2,
+      "dice": 0.8275485634803772,
+      "pred_area": 6876,
+      "true_area": 5945
+    },
+    {
+      "image": "18ba753ff.jpg",
+      "class_id": 2,
+      "dice": 0.5097837448120117,
+      "pred_area": 2774,
+      "true_area": 1110
+    },
+    {
+      "image": "2012a6d02.jpg",
+      "class_id": 2,
+      "dice": 0.6213933825492859,
+      "pred_area": 1911,
+      "true_area": 931
+    },
+    {
+      "image": "268446e17.jpg",
+      "class_id": 2,
+      "dice": 0.3821218013763428,
+      "pred_area": 723,
+      "true_area": 1313
+    },
+    {
+      "image": "2789df930.jpg",
+      "class_id": 2,
+      "dice": 0.8029045462608337,
+      "pred_area": 2292,
+      "true_area": 1564
+    },
+    {
+      "image": "2a7f8bab0.jpg",
+      "class_id": 2,
+      "dice": 0.8351978659629822,
+      "pred_area": 3380,
+      "true_area": 2609
+    },
+    {
+      "image": "3088a6a0d.jpg",
+      "class_id": 2,
+      "dice": 0.49931600689888,
+      "pred_area": 1173,
+      "true_area": 3213
+    },
+    {
+      "image": "338d3b828.jpg",
+      "class_id": 2,
+      "dice": 0.7283638715744019,
+      "pred_area": 2007,
+      "true_area": 1159
+    },
+    {
+      "image": "38c25b61a.jpg",
+      "class_id": 2,
+      "dice": 0.6209267377853394,
+      "pred_area": 2077,
+      "true_area": 4613
+    },
+    {
+      "image": "41f5ea1f2.jpg",
+      "class_id": 2,
+      "dice": 0.6022554039955139,
+      "pred_area": 2220,
+      "true_area": 1061
+    },
+    {
+      "image": "488922ac2.jpg",
+      "class_id": 2,
+      "dice": 0.8641571402549744,
+      "pred_area": 2330,
+      "true_area": 1947
+    },
+    {
+      "image": "53f2e3c44.jpg",
+      "class_id": 2,
+      "dice": 0.7919569611549377,
+      "pred_area": 3723,
+      "true_area": 2593
+    },
+    {
+      "image": "599251689.jpg",
+      "class_id": 2,
+      "dice": 0.812323272228241,
+      "pred_area": 3903,
+      "true_area": 2816
+    },
+    {
+      "image": "5ca7fcc19.jpg",
+      "class_id": 2,
+      "dice": 0.7571673393249512,
+      "pred_area": 4670,
+      "true_area": 3492
+    },
+    {
+      "image": "67a9dd552.jpg",
+      "class_id": 2,
+      "dice": 0.5905976891517639,
+      "pred_area": 1317,
+      "true_area": 2916
+    },
+    {
+      "image": "6b53b62be.jpg",
+      "class_id": 2,
+      "dice": 0.8360301852226257,
+      "pred_area": 1990,
+      "true_area": 1718
+    },
+    {
+      "image": "6fdf2d1be.jpg",
+      "class_id": 2,
+      "dice": 0.547694742679596,
+      "pred_area": 2234,
+      "true_area": 5314
+    },
+    {
+      "image": "7970f0008.jpg",
+      "class_id": 2,
+      "dice": 0.6291890144348145,
+      "pred_area": 5129,
+      "true_area": 6807
+    },
+    {
+      "image": "7f3181e44.jpg",
+      "class_id": 2,
+      "dice": 0.4106292426586151,
+      "pred_area": 1173,
+      "true_area": 2816
+    },
+    {
+      "image": "85294cff9.jpg",
+      "class_id": 2,
+      "dice": 0.432917058467865,
+      "pred_area": 2134,
+      "true_area": 989
+    },
+    {
+      "image": "8ed6b8054.jpg",
+      "class_id": 2,
+      "dice": 0.2343694120645523,
+      "pred_area": 328,
+      "true_area": 2471
+    },
+    {
+      "image": "8f81e6d35.jpg",
+      "class_id": 2,
+      "dice": 0.6273866295814514,
+      "pred_area": 3700,
+      "true_area": 3004
+    },
+    {
+      "image": "933675d91.jpg",
+      "class_id": 2,
+      "dice": 0.7184079885482788,
+      "pred_area": 5668,
+      "true_area": 3377
+    },
+    {
+      "image": "98937deb7.jpg",
+      "class_id": 2,
+      "dice": 0.7516142725944519,
+      "pred_area": 3728,
+      "true_area": 3241
+    },
+    {
+      "image": "9eb76f829.jpg",
+      "class_id": 2,
+      "dice": 0.7078524231910706,
+      "pred_area": 5565,
+      "true_area": 5005
+    },
+    {
+      "image": "a44dd8116.jpg",
+      "class_id": 2,
+      "dice": 0.14635340869426727,
+      "pred_area": 303,
+      "true_area": 3783
+    },
+    {
+      "image": "a56df9123.jpg",
+      "class_id": 2,
+      "dice": 0.30549898743629456,
+      "pred_area": 1648,
+      "true_area": 316
+    },
+    {
+      "image": "acd30bd6a.jpg",
+      "class_id": 2,
+      "dice": 0.8413284420967102,
+      "pred_area": 3297,
+      "true_area": 2665
+    },
+    {
+      "image": "aeb94b95f.jpg",
+      "class_id": 2,
+      "dice": 0.7922565937042236,
+      "pred_area": 2025,
+      "true_area": 1436
+    },
+    {
+      "image": "b3a8bd174.jpg",
+      "class_id": 2,
+      "dice": 0.7236679196357727,
+      "pred_area": 5101,
+      "true_area": 7004
+    },
+    {
+      "image": "b98aee209.jpg",
+      "class_id": 2,
+      "dice": 0.3643471598625183,
+      "pred_area": 745,
+      "true_area": 1813
+    },
+    {
+      "image": "bb3421ee8.jpg",
+      "class_id": 2,
+      "dice": 0.8828787207603455,
+      "pred_area": 4491,
+      "true_area": 4124
+    },
+    {
+      "image": "bbc246c1b.jpg",
+      "class_id": 2,
+      "dice": 0.7099795341491699,
+      "pred_area": 2150,
+      "true_area": 1267
+    },
+    {
+      "image": "c35fa49e2.jpg",
+      "class_id": 2,
+      "dice": 0.40993788838386536,
+      "pred_area": 1829,
+      "true_area": 3967
+    },
+    {
+      "image": "caf49d870.jpg",
+      "class_id": 2,
+      "dice": 0.4030418395996094,
+      "pred_area": 371,
+      "true_area": 1470
+    },
+    {
+      "image": "d0d818b7d.jpg",
+      "class_id": 2,
+      "dice": 0.6043513417243958,
+      "pred_area": 3228,
+      "true_area": 1736
+    },
+    {
+      "image": "d75725fc3.jpg",
+      "class_id": 2,
+      "dice": 0.4915297031402588,
+      "pred_area": 5433,
+      "true_area": 2477
+    },
+    {
+      "image": "e9a938877.jpg",
+      "class_id": 2,
+      "dice": 0.8760936260223389,
+      "pred_area": 3722,
+      "true_area": 4736
+    },
+    {
+      "image": "efe5694bf.jpg",
+      "class_id": 2,
+      "dice": 0.8060368895530701,
+      "pred_area": 3592,
+      "true_area": 3564
+    },
+    {
+      "image": "f17e982f9.jpg",
+      "class_id": 2,
+      "dice": 0.9115303754806519,
+      "pred_area": 1283,
+      "true_area": 1102
+    },
+    {
+      "image": "f3e1e7c47.jpg",
+      "class_id": 2,
+      "dice": 0.6803069114685059,
+      "pred_area": 2742,
+      "true_area": 2341
+    },
+    {
+      "image": "f7b1dd93a.jpg",
+      "class_id": 2,
+      "dice": 0.7224542498588562,
+      "pred_area": 2954,
+      "true_area": 3989
+    },
+    {
+      "image": "f9b337a42.jpg",
+      "class_id": 2,
+      "dice": 0.7048775553703308,
+      "pred_area": 7102,
+      "true_area": 7885
+    }
+  ]
+}
