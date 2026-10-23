@@ -157,7 +157,7 @@ def main():
                 meter.update(predictions[branch], masks, batch_names)
         if batch_names[0] in config.get("reference_cases", []):
             np.savez_compressed(saved / (Path(batch_names[0]).stem + ".npz"),
-                                **{member: p[0].cpu().numpy().astype(np.float16) for member, p in probabilities.items()})
+                                **{member: p[0].cpu().numpy() for member, p in probabilities.items()})
         if (index + 1) % 250 == 0:
             print(json.dumps({"images": index + 1, "seconds": time.perf_counter() - began}), flush=True)
     total_seconds = time.perf_counter() - began

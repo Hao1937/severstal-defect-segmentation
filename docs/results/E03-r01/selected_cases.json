@@ -1,0 +1,78 @@
+[
+  {
+    "image": "8ed6b8054.jpg",
+    "reason": "fixed_A_failure_selected_before_B_training",
+    "figure": "cases/8ed6b8054.png",
+    "combinations": {
+      "A": {
+        "pred_area": 0,
+        "dice": 0.0
+      },
+      "B": {
+        "pred_area": 326,
+        "dice": 0.23310690025026815
+      },
+      "AB": {
+        "pred_area": 0,
+        "dice": 0.0
+      }
+    }
+  },
+  {
+    "image": "8f81e6d35.jpg",
+    "reason": "fixed_A_failure_selected_before_B_training",
+    "figure": "cases/8f81e6d35.png",
+    "combinations": {
+      "A": {
+        "pred_area": 950,
+        "dice": 0.0
+      },
+      "B": {
+        "pred_area": 3701,
+        "dice": 0.6272930648769575
+      },
+      "AB": {
+        "pred_area": 1082,
+        "dice": 0.07684777288301517
+      }
+    }
+  },
+  {
+    "image": "3088a6a0d.jpg",
+    "reason": "fixed_A_failure_selected_before_B_training",
+    "figure": "cases/3088a6a0d.png",
+    "combinations": {
+      "A": {
+        "pred_area": 76,
+        "dice": 0.04621465491030709
+      },
+      "B": {
+        "pred_area": 1173,
+        "dice": 0.4993160054719562
+      },
+      "AB": {
+        "pred_area": 341,
+        "dice": 0.19189645469893077
+      }
+    }
+  },
+  {
+    "image": "7f3181e44.jpg",
+    "reason": "fixed_A_failure_selected_before_B_training",
+    "figure": "cases/7f3181e44.png",
+    "combinations": {
+      "A": {
+        "pred_area": 76,
+        "dice": 0.05255878284923928
+      },
+      "B": {
+        "pred_area": 1173,
+        "dice": 0.41062923038355476
+      },
+      "AB": {
+        "pred_area": 342,
+        "dice": 0.19632678910702978
+      }
+    }
+  }
+]

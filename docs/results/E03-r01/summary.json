@@ -1,0 +1,710 @@
+{
+  "config": {
+    "members": {
+      "A": "runs/E02-r01",
+      "B": "runs/E02-r03"
+    },
+    "combinations": [
+      "A",
+      "B",
+      "AB"
+    ],
+    "branches": [
+      "raw",
+      "area"
+    ],
+    "pixel_threshold": 0.5,
+    "minimum_areas": [
+      100,
+      50,
+      200,
+      400
+    ],
+    "classification_run": "runs/E02-r02",
+    "classification_threshold": 0.5,
+    "factor": 5,
+    "reference_cases": [
+      "8ed6b8054.jpg",
+      "8f81e6d35.jpg",
+      "3088a6a0d.jpg",
+      "7f3181e44.jpg"
+    ]
+  },
+  "members": {
+    "A": {
+      "run": "runs/E02-r01",
+      "epoch": 29,
+      "training_commit": "d0c1e67f72cb542a18fcfedf34de857b1f0799a8",
+      "architecture": "Unet",
+      "encoder": "resnet34",
+      "parameters": 24436804
+    },
+    "B": {
+      "run": "runs/E02-r03",
+      "epoch": 11,
+      "training_commit": "9601fc2a6934a8eda1f19732f9d54fb6f628e31e",
+      "architecture": "FPN",
+      "encoder": "se_resnext50_32x4d",
+      "parameters": 28119284
+    }
+  },
+  "classifier": null,
+  "evaluation_commit": "d022a39642d646698aa0427639a0d66dd9951135",
+  "images": 2514,
+  "smoke_run": false,
+  "seconds": 172.9526140050002,
+  "forward_seconds": {
+    "A": 66.49276118469247,
+    "B": 80.52153451728817
+  },
+  "timing_scope": "CUDA forward+sigmoid only per member; total includes I/O and all comparisons, excludes model loading and saved classifier inference",
+  "peak_gpu_mib": 571.5703125,
+  "raw_reproduction": {
+    "A": {
+      "changed_area_pairs": 2023,
+      "max_absolute_dice_delta": 0.001465916633605957,
+      "changed_overlap_pairs": 0
+    },
+    "B": {
+      "changed_area_pairs": 2595,
+      "max_absolute_dice_delta": 1.0,
+      "changed_overlap_pairs": 0
+    }
+  },
+  "combinations": {
+    "A": {
+      "raw": {
+        "dice": 0.5897650028332214,
+        "nonempty_dice": 0.6951176787664843,
+        "classes": {
+          "1": {
+            "dice": 0.48313582793482734,
+            "nonempty_dice": 0.617896488425452,
+            "image_class_recall": 0.9888268156424581,
+            "false_positive_pairs": 1231,
+            "false_negative_pairs": 2,
+            "positive_pairs": 179,
+            "overlap_pairs": 176
+          },
+          "2": {
+            "dice": 0.6984205837943128,
+            "nonempty_dice": 0.5883540338551512,
+            "image_class_recall": 0.9795918367346939,
+            "false_positive_pairs": 738,
+            "false_negative_pairs": 1,
+            "positive_pairs": 49,
+            "overlap_pairs": 47
+          },
+          "3": {
+            "dice": 0.556482637280342,
+            "nonempty_dice": 0.7106770389541549,
+            "image_class_recall": 0.9990291262135922,
+            "false_positive_pairs": 817,
+            "false_negative_pairs": 1,
+            "positive_pairs": 1030,
+            "overlap_pairs": 1020
+          },
+          "4": {
+            "dice": 0.6210209623234036,
+            "nonempty_dice": 0.7140418705064804,
+            "image_class_recall": 1.0,
+            "false_positive_pairs": 907,
+            "false_negative_pairs": 0,
+            "positive_pairs": 160,
+            "overlap_pairs": 159
+          }
+        },
+        "vs_A": {
+          "1": {
+            "gained_overlap": 0,
+            "lost_overlap": 0,
+            "added_false_positives": 0,
+            "removed_false_positives": 0
+          },
+          "2": {
+            "gained_overlap": 0,
+            "lost_overlap": 0,
+            "added_false_positives": 0,
+            "removed_false_positives": 0
+          },
+          "3": {
+            "gained_overlap": 0,
+            "lost_overlap": 0,
+            "added_false_positives": 0,
+            "removed_false_positives": 0
+          },
+          "4": {
+            "gained_overlap": 0,
+            "lost_overlap": 0,
+            "added_false_positives": 0,
+            "removed_false_positives": 0
+          }
+        },
+        "vs_members": {
+          "A": {
+            "1": {
+              "gained_overlap": 0,
+              "lost_overlap": 0,
+              "added_false_positives": 0,
+              "removed_false_positives": 0
+            },
+            "2": {
+              "gained_overlap": 0,
+              "lost_overlap": 0,
+              "added_false_positives": 0,
+              "removed_false_positives": 0
+            },
+            "3": {
+              "gained_overlap": 0,
+              "lost_overlap": 0,
+              "added_false_positives": 0,
+              "removed_false_positives": 0
+            },
+            "4": {
+              "gained_overlap": 0,
+              "lost_overlap": 0,
+              "added_false_positives": 0,
+              "removed_false_positives": 0
+            }
+          }
+        }
+      },
+      "area": {
+        "dice": 0.6563918922524736,
+        "nonempty_dice": 0.6951176787664843,
+        "classes": {
+          "1": {
+            "dice": 0.5515526934877311,
+            "nonempty_dice": 0.617896488425452,
+            "image_class_recall": 0.9888268156424581,
+            "false_positive_pairs": 1059,
+            "false_negative_pairs": 2,
+            "positive_pairs": 179,
+            "overlap_pairs": 176
+          },
+          "2": {
+            "dice": 0.7381978312087917,
+            "nonempty_dice": 0.5883540338551512,
+            "image_class_recall": 0.9795918367346939,
+            "false_positive_pairs": 638,
+            "false_negative_pairs": 1,
+            "positive_pairs": 49,
+            "overlap_pairs": 47
+          },
+          "3": {
+            "dice": 0.6050108791260063,
+            "nonempty_dice": 0.7106770389541549,
+            "image_class_recall": 0.9980582524271845,
+            "false_positive_pairs": 695,
+            "false_negative_pairs": 2,
+            "positive_pairs": 1030,
+            "overlap_pairs": 1020
+          },
+          "4": {
+            "dice": 0.7308061651873655,
+            "nonempty_dice": 0.7140418705064804,
+            "image_class_recall": 1.0,
+            "false_positive_pairs": 631,
+            "false_negative_pairs": 0,
+            "positive_pairs": 160,
+            "overlap_pairs": 159
+          }
+        },
+        "vs_A": {
+          "1": {
+            "gained_overlap": 0,
+            "lost_overlap": 0,
+            "added_false_positives": 0,
+            "removed_false_positives": 0
+          },
+          "2": {
+            "gained_overlap": 0,
+            "lost_overlap": 0,
+            "added_false_positives": 0,
+            "removed_false_positives": 0
+          },
+          "3": {
+            "gained_overlap": 0,
+            "lost_overlap": 0,
+            "added_false_positives": 0,
+            "removed_false_positives": 0
+          },
+          "4": {
+            "gained_overlap": 0,
+            "lost_overlap": 0,
+            "added_false_positives": 0,
+            "removed_false_positives": 0
+          }
+        },
+        "vs_members": {
+          "A": {
+            "1": {
+              "gained_overlap": 0,
+              "lost_overlap": 0,
+              "added_false_positives": 0,
+              "removed_false_positives": 0
+            },
+            "2": {
+              "gained_overlap": 0,
+              "lost_overlap": 0,
+              "added_false_positives": 0,
+              "removed_false_positives": 0
+            },
+            "3": {
+              "gained_overlap": 0,
+              "lost_overlap": 0,
+              "added_false_positives": 0,
+              "removed_false_positives": 0
+            },
+            "4": {
+              "gained_overlap": 0,
+              "lost_overlap": 0,
+              "added_false_positives": 0,
+              "removed_false_positives": 0
+            }
+          }
+        }
+      }
+    },
+    "B": {
+      "raw": {
+        "dice": 0.5449717443338168,
+        "nonempty_dice": 0.6701240204660516,
+        "classes": {
+          "1": {
+            "dice": 0.416163275045748,
+            "nonempty_dice": 0.6102484551117906,
+            "image_class_recall": 0.994413407821229,
+            "false_positive_pairs": 1398,
+            "false_negative_pairs": 1,
+            "positive_pairs": 179,
+            "overlap_pairs": 174
+          },
+          "2": {
+            "dice": 0.667786052114165,
+            "nonempty_dice": 0.6492680615308334,
+            "image_class_recall": 1.0,
+            "false_positive_pairs": 818,
+            "false_negative_pairs": 0,
+            "positive_pairs": 49,
+            "overlap_pairs": 49
+          },
+          "3": {
+            "dice": 0.42597750115310945,
+            "nonempty_dice": 0.6727256678630263,
+            "image_class_recall": 0.9990291262135922,
+            "false_positive_pairs": 1106,
+            "false_negative_pairs": 1,
+            "positive_pairs": 1030,
+            "overlap_pairs": 1022
+          },
+          "4": {
+            "dice": 0.6699601490222445,
+            "nonempty_dice": 0.7267488415120169,
+            "image_class_recall": 0.99375,
+            "false_positive_pairs": 786,
+            "false_negative_pairs": 1,
+            "positive_pairs": 160,
+            "overlap_pairs": 159
+          }
+        },
+        "vs_A": {
+          "1": {
+            "gained_overlap": 2,
+            "lost_overlap": 4,
+            "added_false_positives": 446,
+            "removed_false_positives": 279
+          },
+          "2": {
+            "gained_overlap": 2,
+            "lost_overlap": 0,
+            "added_false_positives": 316,
+            "removed_false_positives": 236
+          },
+          "3": {
+            "gained_overlap": 3,
+            "lost_overlap": 1,
+            "added_false_positives": 391,
+            "removed_false_positives": 102
+          },
+          "4": {
+            "gained_overlap": 1,
+            "lost_overlap": 1,
+            "added_false_positives": 234,
+            "removed_false_positives": 355
+          }
+        },
+        "vs_members": {
+          "B": {
+            "1": {
+              "gained_overlap": 0,
+              "lost_overlap": 0,
+              "added_false_positives": 0,
+              "removed_false_positives": 0
+            },
+            "2": {
+              "gained_overlap": 0,
+              "lost_overlap": 0,
+              "added_false_positives": 0,
+              "removed_false_positives": 0
+            },
+            "3": {
+              "gained_overlap": 0,
+              "lost_overlap": 0,
+              "added_false_positives": 0,
+              "removed_false_positives": 0
+            },
+            "4": {
+              "gained_overlap": 0,
+              "lost_overlap": 0,
+              "added_false_positives": 0,
+              "removed_false_positives": 0
+            }
+          }
+        }
+      },
+      "area": {
+        "dice": 0.5941883702766824,
+        "nonempty_dice": 0.6700692887886589,
+        "classes": {
+          "1": {
+            "dice": 0.47025556982381533,
+            "nonempty_dice": 0.610181578419395,
+            "image_class_recall": 0.9888268156424581,
+            "false_positive_pairs": 1262,
+            "false_negative_pairs": 2,
+            "positive_pairs": 179,
+            "overlap_pairs": 173
+          },
+          "2": {
+            "dice": 0.7004033949940377,
+            "nonempty_dice": 0.6492680615308334,
+            "image_class_recall": 1.0,
+            "false_positive_pairs": 736,
+            "false_negative_pairs": 0,
+            "positive_pairs": 49,
+            "overlap_pairs": 49
+          },
+          "3": {
+            "dice": 0.4502416220759416,
+            "nonempty_dice": 0.6727256678630263,
+            "image_class_recall": 0.9990291262135922,
+            "false_positive_pairs": 1045,
+            "false_negative_pairs": 1,
+            "positive_pairs": 1030,
+            "overlap_pairs": 1022
+          },
+          "4": {
+            "dice": 0.755852894212935,
+            "nonempty_dice": 0.7263386003207415,
+            "image_class_recall": 0.98125,
+            "false_positive_pairs": 570,
+            "false_negative_pairs": 3,
+            "positive_pairs": 160,
+            "overlap_pairs": 157
+          }
+        },
+        "vs_A": {
+          "1": {
+            "gained_overlap": 2,
+            "lost_overlap": 5,
+            "added_false_positives": 473,
+            "removed_false_positives": 270
+          },
+          "2": {
+            "gained_overlap": 2,
+            "lost_overlap": 0,
+            "added_false_positives": 304,
+            "removed_false_positives": 206
+          },
+          "3": {
+            "gained_overlap": 3,
+            "lost_overlap": 1,
+            "added_false_positives": 446,
+            "removed_false_positives": 96
+          },
+          "4": {
+            "gained_overlap": 1,
+            "lost_overlap": 3,
+            "added_false_positives": 208,
+            "removed_false_positives": 269
+          }
+        },
+        "vs_members": {
+          "B": {
+            "1": {
+              "gained_overlap": 0,
+              "lost_overlap": 0,
+              "added_false_positives": 0,
+              "removed_false_positives": 0
+            },
+            "2": {
+              "gained_overlap": 0,
+              "lost_overlap": 0,
+              "added_false_positives": 0,
+              "removed_false_positives": 0
+            },
+            "3": {
+              "gained_overlap": 0,
+              "lost_overlap": 0,
+              "added_false_positives": 0,
+              "removed_false_positives": 0
+            },
+            "4": {
+              "gained_overlap": 0,
+              "lost_overlap": 0,
+              "added_false_positives": 0,
+              "removed_false_positives": 0
+            }
+          }
+        }
+      }
+    },
+    "AB": {
+      "raw": {
+        "dice": 0.6696232679721773,
+        "nonempty_dice": 0.7022084504430286,
+        "classes": {
+          "1": {
+            "dice": 0.578714100525447,
+            "nonempty_dice": 0.6250684286087917,
+            "image_class_recall": 0.994413407821229,
+            "false_positive_pairs": 992,
+            "false_negative_pairs": 1,
+            "positive_pairs": 179,
+            "overlap_pairs": 176
+          },
+          "2": {
+            "dice": 0.7876049868359438,
+            "nonempty_dice": 0.6334476919502628,
+            "image_class_recall": 0.9795918367346939,
+            "false_positive_pairs": 516,
+            "false_negative_pairs": 1,
+            "positive_pairs": 49,
+            "overlap_pairs": 48
+          },
+          "3": {
+            "dice": 0.5712836836297999,
+            "nonempty_dice": 0.7147642530537057,
+            "image_class_recall": 0.9990291262135922,
+            "false_positive_pairs": 784,
+            "false_negative_pairs": 1,
+            "positive_pairs": 1030,
+            "overlap_pairs": 1021
+          },
+          "4": {
+            "dice": 0.7408903008975184,
+            "nonempty_dice": 0.7287388528522569,
+            "image_class_recall": 1.0,
+            "false_positive_pairs": 608,
+            "false_negative_pairs": 0,
+            "positive_pairs": 160,
+            "overlap_pairs": 160
+          }
+        },
+        "vs_A": {
+          "1": {
+            "gained_overlap": 1,
+            "lost_overlap": 1,
+            "added_false_positives": 77,
+            "removed_false_positives": 316
+          },
+          "2": {
+            "gained_overlap": 1,
+            "lost_overlap": 0,
+            "added_false_positives": 55,
+            "removed_false_positives": 277
+          },
+          "3": {
+            "gained_overlap": 1,
+            "lost_overlap": 0,
+            "added_false_positives": 91,
+            "removed_false_positives": 124
+          },
+          "4": {
+            "gained_overlap": 1,
+            "lost_overlap": 0,
+            "added_false_positives": 18,
+            "removed_false_positives": 317
+          }
+        },
+        "vs_members": {
+          "A": {
+            "1": {
+              "gained_overlap": 1,
+              "lost_overlap": 1,
+              "added_false_positives": 77,
+              "removed_false_positives": 316
+            },
+            "2": {
+              "gained_overlap": 1,
+              "lost_overlap": 0,
+              "added_false_positives": 55,
+              "removed_false_positives": 277
+            },
+            "3": {
+              "gained_overlap": 1,
+              "lost_overlap": 0,
+              "added_false_positives": 91,
+              "removed_false_positives": 124
+            },
+            "4": {
+              "gained_overlap": 1,
+              "lost_overlap": 0,
+              "added_false_positives": 18,
+              "removed_false_positives": 317
+            }
+          },
+          "B": {
+            "1": {
+              "gained_overlap": 3,
+              "lost_overlap": 1,
+              "added_false_positives": 66,
+              "removed_false_positives": 472
+            },
+            "2": {
+              "gained_overlap": 0,
+              "lost_overlap": 1,
+              "added_false_positives": 39,
+              "removed_false_positives": 341
+            },
+            "3": {
+              "gained_overlap": 1,
+              "lost_overlap": 2,
+              "added_false_positives": 27,
+              "removed_false_positives": 349
+            },
+            "4": {
+              "gained_overlap": 1,
+              "lost_overlap": 0,
+              "added_false_positives": 101,
+              "removed_false_positives": 279
+            }
+          }
+        }
+      },
+      "area": {
+        "dice": 0.7160246895493565,
+        "nonempty_dice": 0.7019353160143361,
+        "classes": {
+          "1": {
+            "dice": 0.6231933947394742,
+            "nonempty_dice": 0.6240681250002131,
+            "image_class_recall": 0.9776536312849162,
+            "false_positive_pairs": 880,
+            "false_negative_pairs": 4,
+            "positive_pairs": 179,
+            "overlap_pairs": 174
+          },
+          "2": {
+            "dice": 0.8130624251812104,
+            "nonempty_dice": 0.6334476919502628,
+            "image_class_recall": 0.9795918367346939,
+            "false_positive_pairs": 452,
+            "false_negative_pairs": 1,
+            "positive_pairs": 49,
+            "overlap_pairs": 48
+          },
+          "3": {
+            "dice": 0.6109840695093502,
+            "nonempty_dice": 0.7145766512102004,
+            "image_class_recall": 0.9980582524271845,
+            "false_positive_pairs": 684,
+            "false_negative_pairs": 2,
+            "positive_pairs": 1030,
+            "overlap_pairs": 1020
+          },
+          "4": {
+            "dice": 0.816858868767391,
+            "nonempty_dice": 0.7286449755076319,
+            "image_class_recall": 0.99375,
+            "false_positive_pairs": 417,
+            "false_negative_pairs": 1,
+            "positive_pairs": 160,
+            "overlap_pairs": 159
+          }
+        },
+        "vs_A": {
+          "1": {
+            "gained_overlap": 1,
+            "lost_overlap": 3,
+            "added_false_positives": 84,
+            "removed_false_positives": 263
+          },
+          "2": {
+            "gained_overlap": 1,
+            "lost_overlap": 0,
+            "added_false_positives": 56,
+            "removed_false_positives": 242
+          },
+          "3": {
+            "gained_overlap": 0,
+            "lost_overlap": 0,
+            "added_false_positives": 110,
+            "removed_false_positives": 121
+          },
+          "4": {
+            "gained_overlap": 1,
+            "lost_overlap": 1,
+            "added_false_positives": 25,
+            "removed_false_positives": 239
+          }
+        },
+        "vs_members": {
+          "A": {
+            "1": {
+              "gained_overlap": 1,
+              "lost_overlap": 3,
+              "added_false_positives": 84,
+              "removed_false_positives": 263
+            },
+            "2": {
+              "gained_overlap": 1,
+              "lost_overlap": 0,
+              "added_false_positives": 56,
+              "removed_false_positives": 242
+            },
+            "3": {
+              "gained_overlap": 0,
+              "lost_overlap": 0,
+              "added_false_positives": 110,
+              "removed_false_positives": 121
+            },
+            "4": {
+              "gained_overlap": 1,
+              "lost_overlap": 1,
+              "added_false_positives": 25,
+              "removed_false_positives": 239
+            }
+          },
+          "B": {
+            "1": {
+              "gained_overlap": 2,
+              "lost_overlap": 1,
+              "added_false_positives": 77,
+              "removed_false_positives": 459
+            },
+            "2": {
+              "gained_overlap": 0,
+              "lost_overlap": 1,
+              "added_false_positives": 29,
+              "removed_false_positives": 313
+            },
+            "3": {
+              "gained_overlap": 1,
+              "lost_overlap": 3,
+              "added_false_positives": 17,
+              "removed_false_positives": 378
+            },
+            "4": {
+              "gained_overlap": 3,
+              "lost_overlap": 1,
+              "added_false_positives": 62,
+              "removed_false_positives": 215
+            }
+          }
+        }
+      }
+    }
+  }
+}

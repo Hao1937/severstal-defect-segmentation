@@ -1,0 +1,25 @@
+{
+  "A": {
+    "changes_over_0_01": [],
+    "max_positive_delta": 0.001465916633605957
+  },
+  "B": {
+    "changes_over_0_01": [
+      {
+        "image": "b5ab7a42f.jpg",
+        "class_id": 4,
+        "dice": 1.0,
+        "pred_area": 0,
+        "true_area": 0,
+        "original": {
+          "image": "b5ab7a42f.jpg",
+          "class_id": 4,
+          "dice": 0.0,
+          "pred_area": 2,
+          "true_area": 0
+        }
+      }
+    ],
+    "max_positive_delta": 0.00255005806684494
+  }
+}

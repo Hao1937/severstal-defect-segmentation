@@ -49,11 +49,13 @@ def main():
         if not source.exists():
             continue
         with np.load(source) as stored:
+            approximate = any(stored[member].dtype == np.float16 for member in config["members"])
             probabilities = {member: torch.from_numpy(stored[member].copy())[None] for member in config["members"]}
         image = np.asarray(Image.open(Path(data_dir) / "train_images" / name).convert("RGB"))
         target = decode_rle(labels[name][1]).astype(bool)
         fig, axes = plt.subplots(len(combinations) + 1, 1, figsize=(16, 2 * (len(combinations) + 1)), constrained_layout=True)
-        fig.suptitle(f"Class 2 fixed reference | {name} | common area filter", fontsize=12)
+        precision_note = " | float16 cache: approximate boundaries/metrics" if approximate else ""
+        fig.suptitle(f"Class 2 fixed reference | {name} | common area filter{precision_note}", fontsize=12)
         axes[0].imshow(image)
         axes[0].contour(target, levels=[.5], colors=["lime"], linewidths=.8)
         axes[0].set_title(f"Ground truth | area={int(target.sum())}", loc="left", fontsize=10)
@@ -75,7 +77,8 @@ def main():
         fig.savefig(destination, dpi=100)
         plt.close(fig)
         selected.append({"image": name, "reason": "fixed_A_failure_selected_before_B_training",
-                         "figure": str(destination.relative_to(run)), "combinations": records})
+                         "figure": str(destination.relative_to(run)), "combinations": records,
+                         "approximate_from_float16": approximate})
     (run / "selected_cases.json").write_text(json.dumps(selected, indent=2))
     print(json.dumps({"comparison": str(run / "ensemble_comparison.png"), "cases": len(selected)}))
 
