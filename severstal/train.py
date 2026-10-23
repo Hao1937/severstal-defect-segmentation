@@ -15,7 +15,7 @@ import torch
 import yaml
 from torch.utils.data import DataLoader
 
-from .data import SteelDataset, load_annotations
+from .data import SteelDataset, ClassificationDataset, load_annotations
 from .metrics import DiceMeter, segmentation_loss
 from .models import make_model
 
@@ -93,8 +93,9 @@ def main():
     if set(split["train"]) | set(split["val"]) != set(labels):
         raise ValueError("Split does not cover the available training images")
     val_names = split["val"][:args.max_val_images] if args.max_val_images else split["val"]
-    train_data = SteelDataset(config["data_dir"], split["train"], labels, True, config["crop_width"], config["brightness_contrast"])
-    val_data = SteelDataset(config["data_dir"], val_names, labels)
+    dataset_type = ClassificationDataset if config["task"] == "classification" else SteelDataset
+    train_data = dataset_type(config["data_dir"], split["train"], labels, True, config["crop_width"], config["brightness_contrast"])
+    val_data = dataset_type(config["data_dir"], val_names, labels)
     generator = torch.Generator().manual_seed(config["seed"])
     options = dict(num_workers=config["workers"], pin_memory=True, worker_init_fn=seed_worker)
     train_loader = DataLoader(train_data, batch_size=config["batch_size"], shuffle=True, generator=generator, **options)

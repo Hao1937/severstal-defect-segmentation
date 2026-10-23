@@ -121,3 +121,25 @@ class SteelDataset(Dataset):
         # Derive classification targets after the paired crop.
         presence = mask.reshape(4, -1).any(axis=1).astype(np.float32)
         return normalize(image), torch.from_numpy(np.ascontiguousarray(mask, dtype=np.float32)), torch.from_numpy(presence), name
+
+
+class ClassificationDataset(SteelDataset):
+    """Full-image labels come directly from RLE presence; no pixel masks are needed."""
+
+    def __getitem__(self, index):
+        name = self.names[index]
+        with Image.open(self.root / "train_images" / name) as source:
+            image = np.asarray(source.convert("RGB")).copy()
+        if self.training:
+            if self.crop_width != image.shape[1]:
+                raise ValueError("ClassificationDataset requires full-image width to preserve labels")
+            if random.random() < 0.5:
+                image = image[:, ::-1]
+            if random.random() < 0.5:
+                image = image[::-1]
+            if self.jitter:
+                contrast = random.uniform(1 - self.jitter, 1 + self.jitter)
+                brightness = random.uniform(-self.jitter, self.jitter) * 255
+                image = np.clip(image.astype(np.float32) * contrast + brightness, 0, 255)
+        presence = torch.tensor([bool(rle) for rle in self.labels[name]], dtype=torch.float32)
+        return normalize(image), torch.empty(0), presence, name
