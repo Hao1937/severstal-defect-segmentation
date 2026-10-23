@@ -1,0 +1,43 @@
+{
+  "epoch": 1,
+  "loss": 0.2906389306881465,
+  "train_seconds": 1.968736181006534,
+  "val_seconds": 0.8266852810047567,
+  "peak_gpu_mib": 864.37451171875,
+  "learning_rate": 0.0003,
+  "metrics": {
+    "dice": 0.7158568240120076,
+    "nonempty_dice": 0.0740760669789531,
+    "classes": {
+      "1": {
+        "dice": 0.8125,
+        "nonempty_dice": 0.0,
+        "image_class_recall": 0.0,
+        "false_positive_pairs": 0,
+        "false_negative_pairs": 3
+      },
+      "2": {
+        "dice": 1.0,
+        "nonempty_dice": null,
+        "image_class_recall": null,
+        "false_positive_pairs": 0,
+        "false_negative_pairs": 0
+      },
+      "3": {
+        "dice": 0.11342729604803026,
+        "nonempty_dice": 0.11640524810978345,
+        "image_class_recall": 1.0,
+        "false_positive_pairs": 8,
+        "false_negative_pairs": 0
+      },
+      "4": {
+        "dice": 0.9375,
+        "nonempty_dice": 0.0,
+        "image_class_recall": 0.0,
+        "false_positive_pairs": 0,
+        "false_negative_pairs": 1
+      }
+    }
+  },
+  "best_score": 0.0740760669789531
+}
