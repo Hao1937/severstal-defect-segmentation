@@ -1,0 +1,7 @@
+extends: ensemble_ab.yaml
+members:
+  A: runs/E02-r01
+  B: runs/E02-r03
+  C: runs/E02-r04
+combinations: [A, B, C, AB, AC, BC, ABC]
+branches: [raw, area, fixed5, hard, soft, dynamic]

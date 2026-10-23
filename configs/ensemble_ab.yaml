@@ -1,0 +1,11 @@
+members:
+  A: runs/E02-r01
+  B: runs/E02-r03
+combinations: [A, B, AB]
+branches: [raw, area]
+pixel_threshold: 0.5
+minimum_areas: [100, 50, 200, 400]
+classification_run: runs/E02-r02
+classification_threshold: 0.5
+factor: 5
+reference_cases: [8ed6b8054.jpg, 8f81e6d35.jpg, 3088a6a0d.jpg, 7f3181e44.jpg]
