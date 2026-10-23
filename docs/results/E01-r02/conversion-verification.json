@@ -1,0 +1,49 @@
+{
+  "mode": "verify",
+  "torch": "2.7.1+cu128",
+  "device": "cpu",
+  "models": [
+    {
+      "model": "unet_se_resnext50_32x4d.pth",
+      "output_shape": [
+        1,
+        4,
+        256,
+        1600
+      ],
+      "max_absolute_error": 0.000263214111328125,
+      "mean_absolute_error": 8.938936844060663e-06,
+      "zero_logit_mask_agreement": 1.0,
+      "allclose": true,
+      "seconds": 0.9434589059965219
+    },
+    {
+      "model": "unet_mobilenet2.pth",
+      "output_shape": [
+        1,
+        4,
+        256,
+        1600
+      ],
+      "max_absolute_error": 0.0001430511474609375,
+      "mean_absolute_error": 6.208843387867091e-06,
+      "zero_logit_mask_agreement": 1.0,
+      "allclose": true,
+      "seconds": 0.42355407199647743
+    },
+    {
+      "model": "unet_resnet34.pth",
+      "output_shape": [
+        1,
+        4,
+        256,
+        1600
+      ],
+      "max_absolute_error": 0.0001583099365234375,
+      "mean_absolute_error": 6.391672741301591e-06,
+      "zero_logit_mask_agreement": 1.0,
+      "allclose": true,
+      "seconds": 0.42020118000073126
+    }
+  ]
+}

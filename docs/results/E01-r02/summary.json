@@ -1,0 +1,35 @@
+{
+  "images": 32,
+  "seconds": 14.498591579998902,
+  "positive_images_per_class": [
+    3,
+    1,
+    19,
+    3
+  ],
+  "device": "NVIDIA GeForce RTX 3070 Laptop GPU",
+  "peak_gpu_mib": 427.5419921875,
+  "weights": [
+    "unet_se_resnext50_32x4d.pth",
+    "unet_mobilenet2.pth",
+    "unet_resnet34.pth"
+  ],
+  "weights_directory": "weights/lightforever-converted",
+  "threshold": 0.5,
+  "minimum_area": [
+    600,
+    600,
+    1000,
+    2000
+  ],
+  "tta": [
+    "identity",
+    "horizontal_flip"
+  ],
+  "aggregation": "mean_logits_then_sigmoid_then_inverse_tta_mean",
+  "batch_size": 1,
+  "precision": "float32",
+  "evaluation": "unlabeled_test_demo",
+  "git_commit": "d0c1e67f72cb542a18fcfedf34de857b1f0799a8",
+  "source": "https://www.kaggle.com/code/lightforever/severstal-mlcomp-catalyst-infer-0-90672"
+}
