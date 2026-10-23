@@ -1,0 +1,6 @@
+extends: unet_resnet34.yaml
+task: classification
+architecture: ResNet34
+crop_width: 1600
+batch_size: 2
+positive_weights: [1.0, 1.0, 1.0, 1.0]

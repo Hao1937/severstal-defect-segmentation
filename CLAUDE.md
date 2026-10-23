@@ -28,6 +28,6 @@ flowchart TD
 | `docs/` | 当前方案、决策与实验 | [docs/CLAUDE.md](docs/CLAUDE.md) |
 | `Severstal调研/` | 赛题事实、公开方案观察与设计依据 | [调研/CLAUDE.md](Severstal调研/CLAUDE.md) |
 
-现阶段为调研与方案设计，尚无本项目源码、数据、权重或训练结果；运行入口在实现后补充。
+代码入口为 `severstal/`，成员配置在 `configs/`，相关测试在 `tests/`；环境与命令见[运行说明](docs/运行说明.md)，实际运行状态见[实验记录](docs/实验记录.md)。
 
 `.spec-workflow/` 为通用模板，不属于项目模块。后续新增模块时更新本索引，具体配置与实验结果仍写入对应文档。

@@ -1,0 +1,4 @@
+extends: unet_resnet34.yaml
+architecture: FPN
+encoder: se_resnext50_32x4d
+batch_size: 2
