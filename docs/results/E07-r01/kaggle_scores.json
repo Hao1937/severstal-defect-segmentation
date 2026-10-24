@@ -1,0 +1,37 @@
+{
+  "experiment": "E07-r01",
+  "source": "https://www.kaggle.com/competitions/severstal-steel-defect-detection/submissions",
+  "evidence": "Live authenticated Kaggle UI; scores transcribed at displayed five-decimal precision.",
+  "timezone": "Asia/Shanghai",
+  "submission_id_note": "The UI did not expose a separate submission ID; notebook version and submission time identify each entry.",
+  "submissions": [
+    {
+      "branch": "area",
+      "notebook": "yuhaowang1937/severstal-abc-frozen-area",
+      "version": 2,
+      "script_version_id": 361706604,
+      "submitted_at": "2026-10-24T14:52:27+08:00",
+      "status": "Succeeded (after deadline)",
+      "public_score": 0.61403,
+      "private_score": 0.56641
+    },
+    {
+      "branch": "soft",
+      "notebook": "yuhaowang1937/severstal-abc-frozen-soft",
+      "version": 2,
+      "script_version_id": 361706742,
+      "submitted_at": "2026-10-24T14:54:04+08:00",
+      "status": "Succeeded (after deadline)",
+      "public_score": 0.90015,
+      "private_score": 0.87003
+    }
+  ],
+  "recorded_at": "2026-10-24T15:14:39+08:00",
+  "differences": {
+    "soft_minus_area_public": 0.28612,
+    "soft_minus_area_private": 0.30362,
+    "winner_minus_soft_public": 0.02109,
+    "winner_minus_soft_private": 0.0388
+  },
+  "score_scope": "Official Public and Private test scores from late submissions; no retrospective competition rank."
+}
