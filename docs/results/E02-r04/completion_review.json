@@ -1,0 +1,77 @@
+{
+  "completed_epochs": 30,
+  "selected_epoch": 29,
+  "training_commit": "c7427ab",
+  "train_validation_minutes": 205.0402507569335,
+  "resume_train_validation_minutes": 66.41608226963335,
+  "overlap_by_class": {
+    "1": 172,
+    "2": 47,
+    "3": 1016,
+    "4": 158
+  },
+  "class2_without_overlap": [
+    {
+      "image": "0c6720401.jpg",
+      "class_id": 2,
+      "dice": 0.0,
+      "pred_area": 445,
+      "true_area": 5333
+    },
+    {
+      "image": "8ed6b8054.jpg",
+      "class_id": 2,
+      "dice": 0.0,
+      "pred_area": 0,
+      "true_area": 2471
+    }
+  ],
+  "final_round": {
+    "epoch": 30,
+    "loss": 0.04956329787205781,
+    "train_seconds": 258.44927362600083,
+    "val_seconds": 54.91412001200024,
+    "peak_gpu_mib": 766.5859375,
+    "learning_rate": 3.75e-05,
+    "metrics": {
+      "dice": 0.7031935949884588,
+      "nonempty_dice": 0.6863997117094092,
+      "classes": {
+        "1": {
+          "dice": 0.6528784657314319,
+          "nonempty_dice": 0.5270193455241329,
+          "image_class_recall": 0.9329608938547486,
+          "false_positive_pairs": 788,
+          "false_negative_pairs": 12
+        },
+        "2": {
+          "dice": 0.8274874492646948,
+          "nonempty_dice": 0.5776213765600506,
+          "image_class_recall": 0.8979591836734694,
+          "false_positive_pairs": 413,
+          "false_negative_pairs": 5
+        },
+        "3": {
+          "dice": 0.5921303187499739,
+          "nonempty_dice": 0.7093355546965381,
+          "image_class_recall": 0.9980582524271845,
+          "false_positive_pairs": 726,
+          "false_negative_pairs": 2
+        },
+        "4": {
+          "dice": 0.7402781462077349,
+          "nonempty_dice": 0.750370372289035,
+          "image_class_recall": 0.99375,
+          "false_positive_pairs": 613,
+          "false_negative_pairs": 1
+        }
+      }
+    },
+    "best_score": 0.6984078821072477
+  },
+  "completed_marker": {
+    "event": "complete",
+    "best_score": 0.6984078821072477,
+    "output": "runs/E02-r04"
+  }
+}

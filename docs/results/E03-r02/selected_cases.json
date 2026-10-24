@@ -1,0 +1,146 @@
+[
+  {
+    "image": "8ed6b8054.jpg",
+    "reason": "fixed_A_failure_selected_before_B_training",
+    "figure": "cases/8ed6b8054.png",
+    "combinations": {
+      "A": {
+        "pred_area": 0,
+        "dice": 0.0
+      },
+      "B": {
+        "pred_area": 328,
+        "dice": 0.23436941764916042
+      },
+      "C": {
+        "pred_area": 0,
+        "dice": 0.0
+      },
+      "AB": {
+        "pred_area": 0,
+        "dice": 0.0
+      },
+      "AC": {
+        "pred_area": 0,
+        "dice": 0.0
+      },
+      "BC": {
+        "pred_area": 0,
+        "dice": 0.0
+      },
+      "ABC": {
+        "pred_area": 0,
+        "dice": 0.0
+      }
+    },
+    "approximate_from_float16": false
+  },
+  {
+    "image": "8f81e6d35.jpg",
+    "reason": "fixed_A_failure_selected_before_B_training",
+    "figure": "cases/8f81e6d35.png",
+    "combinations": {
+      "A": {
+        "pred_area": 951,
+        "dice": 0.0
+      },
+      "B": {
+        "pred_area": 3701,
+        "dice": 0.6272930648769575
+      },
+      "C": {
+        "pred_area": 1967,
+        "dice": 0.5338966002816334
+      },
+      "AB": {
+        "pred_area": 1081,
+        "dice": 0.07588739290085679
+      },
+      "AC": {
+        "pred_area": 374,
+        "dice": 0.021906453522794554
+      },
+      "BC": {
+        "pred_area": 2135,
+        "dice": 0.6133489005643121
+      },
+      "ABC": {
+        "pred_area": 1606,
+        "dice": 0.5501084598698481
+      }
+    },
+    "approximate_from_float16": false
+  },
+  {
+    "image": "3088a6a0d.jpg",
+    "reason": "fixed_A_failure_selected_before_B_training",
+    "figure": "cases/3088a6a0d.png",
+    "combinations": {
+      "A": {
+        "pred_area": 76,
+        "dice": 0.04621465491030709
+      },
+      "B": {
+        "pred_area": 1173,
+        "dice": 0.4993160054719562
+      },
+      "C": {
+        "pred_area": 1050,
+        "dice": 0.49261083743842365
+      },
+      "AB": {
+        "pred_area": 341,
+        "dice": 0.19189645469893077
+      },
+      "AC": {
+        "pred_area": 450,
+        "dice": 0.2457002457002457
+      },
+      "BC": {
+        "pred_area": 1096,
+        "dice": 0.5054537015548851
+      },
+      "ABC": {
+        "pred_area": 730,
+        "dice": 0.37027643925944714
+      }
+    },
+    "approximate_from_float16": false
+  },
+  {
+    "image": "7f3181e44.jpg",
+    "reason": "fixed_A_failure_selected_before_B_training",
+    "figure": "cases/7f3181e44.png",
+    "combinations": {
+      "A": {
+        "pred_area": 76,
+        "dice": 0.05255878284923928
+      },
+      "B": {
+        "pred_area": 1173,
+        "dice": 0.41062923038355476
+      },
+      "C": {
+        "pred_area": 1045,
+        "dice": 0.4713804713804714
+      },
+      "AB": {
+        "pred_area": 341,
+        "dice": 0.19638897687678175
+      },
+      "AC": {
+        "pred_area": 449,
+        "dice": 0.2738131699846861
+      },
+      "BC": {
+        "pred_area": 1095,
+        "dice": 0.4331373050370749
+      },
+      "ABC": {
+        "pred_area": 727,
+        "dice": 0.3415184871577759
+      }
+    },
+    "approximate_from_float16": false
+  }
+]
