@@ -1,43 +1,43 @@
 {
-  "epoch": 24,
-  "loss": 0.05218473434114508,
-  "train_seconds": 253.02827730199988,
-  "val_seconds": 54.414188886000375,
+  "epoch": 27,
+  "loss": 0.052313259683883916,
+  "train_seconds": 256.88843516199995,
+  "val_seconds": 54.335998312999436,
   "peak_gpu_mib": 766.5859375,
   "learning_rate": 3.75e-05,
   "metrics": {
-    "dice": 0.6694533734039805,
-    "nonempty_dice": 0.6868992404445895,
+    "dice": 0.6852714022306255,
+    "nonempty_dice": 0.6947032586961711,
     "classes": {
       "1": {
-        "dice": 0.5835351129082849,
-        "nonempty_dice": 0.5531132617398222,
-        "image_class_recall": 0.9497206703910615,
-        "false_positive_pairs": 967,
-        "false_negative_pairs": 9
+        "dice": 0.6212140082803242,
+        "nonempty_dice": 0.5850950660152808,
+        "image_class_recall": 0.9888268156424581,
+        "false_positive_pairs": 878,
+        "false_negative_pairs": 2
       },
       "2": {
-        "dice": 0.7917908492309909,
-        "nonempty_dice": 0.6237182646267572,
-        "image_class_recall": 0.9795918367346939,
-        "false_positive_pairs": 505,
-        "false_negative_pairs": 1
+        "dice": 0.7356879032063598,
+        "nonempty_dice": 0.6432528298120109,
+        "image_class_recall": 1.0,
+        "false_positive_pairs": 647,
+        "false_negative_pairs": 0
       },
       "3": {
-        "dice": 0.5656796472520039,
-        "nonempty_dice": 0.7049695467879008,
+        "dice": 0.5678919812952603,
+        "nonempty_dice": 0.7103693601711499,
         "image_class_recall": 1.0,
         "false_positive_pairs": 788,
         "false_negative_pairs": 0
       },
       "4": {
-        "dice": 0.7368078842246424,
-        "nonempty_dice": 0.7395938808796927,
-        "image_class_recall": 0.9875,
-        "false_positive_pairs": 620,
-        "false_negative_pairs": 2
+        "dice": 0.8162917161405578,
+        "nonempty_dice": 0.7322335898585152,
+        "image_class_recall": 0.98125,
+        "false_positive_pairs": 419,
+        "false_negative_pairs": 3
       }
     }
   },
-  "best_score": 0.6868992404445895
+  "best_score": 0.6947032586961711
 }
