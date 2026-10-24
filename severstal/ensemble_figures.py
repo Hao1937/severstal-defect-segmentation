@@ -26,7 +26,7 @@ def main():
     config = summary["config"]
     combinations = config["combinations"]
     x = np.arange(len(combinations))
-    fig, axes = plt.subplots(2, 2, figsize=(13, 8), constrained_layout=True)
+    fig, axes = plt.subplots(2, 2, figsize=(max(13, 2.6 * len(combinations)), 9), constrained_layout=True)
     for class_id, ax in enumerate(axes.flat, 1):
         dice = [summary["combinations"][combo]["area"]["classes"][str(class_id)]["nonempty_dice"] for combo in combinations]
         bars = ax.bar(x, dice, color=["#4776b4" if len(combo) == 1 else "#d8882a" for combo in combinations])
