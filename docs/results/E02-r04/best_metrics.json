@@ -1,43 +1,43 @@
 {
-  "epoch": 19,
-  "loss": 0.0553057887684032,
-  "train_seconds": 246.81893678000006,
-  "val_seconds": 51.764420126999994,
+  "epoch": 24,
+  "loss": 0.05218473434114508,
+  "train_seconds": 253.02827730199988,
+  "val_seconds": 54.414188886000375,
   "peak_gpu_mib": 766.5859375,
-  "learning_rate": 7.5e-05,
+  "learning_rate": 3.75e-05,
   "metrics": {
-    "dice": 0.6595609352988574,
-    "nonempty_dice": 0.6823305820629831,
+    "dice": 0.6694533734039805,
+    "nonempty_dice": 0.6868992404445895,
     "classes": {
       "1": {
-        "dice": 0.5687936075259957,
-        "nonempty_dice": 0.5471906665941524,
-        "image_class_recall": 0.9385474860335196,
-        "false_positive_pairs": 1003,
-        "false_negative_pairs": 11
+        "dice": 0.5835351129082849,
+        "nonempty_dice": 0.5531132617398222,
+        "image_class_recall": 0.9497206703910615,
+        "false_positive_pairs": 967,
+        "false_negative_pairs": 9
       },
       "2": {
-        "dice": 0.6454903670811141,
-        "nonempty_dice": 0.6278118947330786,
+        "dice": 0.7917908492309909,
+        "nonempty_dice": 0.6237182646267572,
         "image_class_recall": 0.9795918367346939,
-        "false_positive_pairs": 873,
+        "false_positive_pairs": 505,
         "false_negative_pairs": 1
       },
       "3": {
-        "dice": 0.5386259833898309,
-        "nonempty_dice": 0.7020443905262476,
-        "image_class_recall": 0.9990291262135922,
-        "false_positive_pairs": 853,
-        "false_negative_pairs": 1
+        "dice": 0.5656796472520039,
+        "nonempty_dice": 0.7049695467879008,
+        "image_class_recall": 1.0,
+        "false_positive_pairs": 788,
+        "false_negative_pairs": 0
       },
       "4": {
-        "dice": 0.8853337831984889,
-        "nonempty_dice": 0.7233070685062557,
-        "image_class_recall": 0.975,
-        "false_positive_pairs": 244,
-        "false_negative_pairs": 4
+        "dice": 0.7368078842246424,
+        "nonempty_dice": 0.7395938808796927,
+        "image_class_recall": 0.9875,
+        "false_positive_pairs": 620,
+        "false_negative_pairs": 2
       }
     }
   },
-  "best_score": 0.6823305820629831
+  "best_score": 0.6868992404445895
 }
