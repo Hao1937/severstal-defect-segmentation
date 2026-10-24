@@ -1,0 +1,69 @@
+{
+  "recorded_at": "2026-10-24",
+  "scope": "Existing development validation; not hidden-test classwise results",
+  "basis": [
+    "docs/results/E03-r02/class2_positive_comparison.json",
+    "runs/defense_materials_20261024/raw/runs/E02-r02/best_validation.jsonl",
+    "configs/ensemble_abc.yaml"
+  ],
+  "members": "A29/B11/C29",
+  "classifier_epoch": 28,
+  "selection": "All class-2 validation pairs with ABC area Dice > 0 and ABC soft Dice = 0; alphabetical order",
+  "explanation": "For p in [0,1] and q <= 0.5, p*q <= 0.5; no pixel passes the strict >0.5 threshold, before area filtering.",
+  "cases": [
+    {
+      "image": "0c6720401.jpg",
+      "area_dice": 0.4275394380092621,
+      "area_pred_area": 1450,
+      "true_area": 5333,
+      "soft_dice": 0.0,
+      "soft_pred_area": 0,
+      "classifier_probability": 0.00034880638122558594
+    },
+    {
+      "image": "268446e17.jpg",
+      "area_dice": 0.8146938681602478,
+      "area_pred_area": 1137,
+      "true_area": 1313,
+      "soft_dice": 0.0,
+      "soft_pred_area": 0,
+      "classifier_probability": 0.06793212890625
+    },
+    {
+      "image": "38c25b61a.jpg",
+      "area_dice": 0.5810520052909851,
+      "area_pred_area": 1889,
+      "true_area": 4613,
+      "soft_dice": 0.0,
+      "soft_pred_area": 0,
+      "classifier_probability": 0.054901123046875
+    },
+    {
+      "image": "67a9dd552.jpg",
+      "area_dice": 0.5486593842506409,
+      "area_pred_area": 1112,
+      "true_area": 2916,
+      "soft_dice": 0.0,
+      "soft_pred_area": 0,
+      "classifier_probability": 0.48974609375
+    },
+    {
+      "image": "caf49d870.jpg",
+      "area_dice": 0.4979633390903473,
+      "area_pred_area": 494,
+      "true_area": 1470,
+      "soft_dice": 0.0,
+      "soft_pred_area": 0,
+      "classifier_probability": 0.2313232421875
+    },
+    {
+      "image": "f7b1dd93a.jpg",
+      "area_dice": 0.6461349129676819,
+      "area_pred_area": 2505,
+      "true_area": 3989,
+      "soft_dice": 0.0,
+      "soft_pred_area": 0,
+      "classifier_probability": 0.1517333984375
+    }
+  ]
+}

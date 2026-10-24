@@ -1,0 +1,502 @@
+{
+  "figures": [
+    {
+      "id": "01_dataset",
+      "title": "从数据出发：类别不平衡、正常图与多类共存",
+      "sources": [
+        "raw/data/severstal/train.csv",
+        "raw/data/split_seed42.json"
+      ],
+      "observation": "12,568 张原图中，5,902 张正常；类别 2 仅 247 张阳性。四类数量不能相加当作原图总数。",
+      "scope": "统计对象为有标签的全部训练数据；测试集没有真值，不参与此图。"
+    },
+    {
+      "id": "02_examples",
+      "title": "原始图像与标注：四类、正常图、多类图",
+      "sources": [
+        "raw/data/severstal/train_images/",
+        "raw/data/severstal/train.csv",
+        "docs/答辩材料索引.md"
+      ],
+      "observation": "缺陷有不同尺度和外观；正常图也可能有黑区和规则纹理。彩色区域是真实标签，不是模型预测。",
+      "scope": "四类各取验证集面积排序中间样本，正常与多类各取文件名排序首图；不能代表所有形态。"
+    },
+    {
+      "id": "02b_example_details",
+      "title": "局部放大：把细窄缺陷看清楚",
+      "sources": [
+        "raw/data/severstal/train_images/",
+        "raw/data/severstal/train.csv"
+      ],
+      "observation": "同一批四类原图的局部视图，颜色仅表示真实标签。细窄标签在全图缩小时容易看不清。",
+      "scope": "横向以距本类掩膜重心最近的真值像素为中心，截取256×256窗口；保留全部高度。图下注明窗口内本类面积占比；不是模型预测。"
+    },
+    {
+      "id": "03_data_flow",
+      "title": "数据如何进入训练、融合和官方测试",
+      "sources": [
+        "severstal/data.py",
+        "configs/",
+        "docs/决策记录.md#d33",
+        "docs/决策记录.md#d49"
+      ],
+      "observation": "先划分原图再裁剪，避免同一图像的不同裁块跨训练与验证；分类器使用全图。",
+      "scope": "按现有代码与配置绘制的流程示意，不是新增实验。"
+    },
+    {
+      "id": "04_paired_crop",
+      "title": "同一张阳性原图，裁剪后可能没有缺陷",
+      "sources": [
+        "severstal/data.py:SteelDataset.__getitem__",
+        "raw/data/severstal/train_images/163ff3547.jpg"
+      ],
+      "observation": "裁剪会改变实际看到的标签；几何变换必须同时应用到图像和掩膜。",
+      "scope": "本次用验证样本重画的教学示意，窗口按有无缺陷选择；不是历史训练批次，也未将该样本用于训练。"
+    },
+    {
+      "id": "05_rle",
+      "title": "RLE 怎样恢复像素标签",
+      "sources": [
+        "severstal/data.py:decode_rle"
+      ],
+      "observation": "先减去 1 得到数组起点，再按列恢复二维掩膜；展开顺序错误会使位置错乱。",
+      "scope": "4×6 人工小网格，用于解释编码；并非真实钢板样本。"
+    },
+    {
+      "id": "06_training",
+      "title": "完整训练曲线：学习进展与选模时点",
+      "sources": [
+        "raw/runs/E02-r01/history.jsonl",
+        "raw/runs/E02-r03/history.jsonl",
+        "raw/runs/E02-r04/history.jsonl"
+      ],
+      "observation": "A/B/C 分别训练 30/18/30 轮，正式选中 29/11/29。类别 2 的学习在早期明显滞后。",
+      "scope": "原始验证输出，尚未施加共同面积过滤；空预测漏检不包括预测非空但位置错误的样本。星号是选中权重。"
+    },
+    {
+      "id": "07_classifier",
+      "title": "分类器的选择：综合表现与类别 2 召回",
+      "sources": [
+        "raw/runs/E02-r02/history.jsonl",
+        "docs/决策记录.md#d43"
+      ],
+      "observation": "正式使用第 28 轮；第 27 轮因类别 2 召回较高被额外保留，但没有用于主门控对照。",
+      "scope": "展示已有训练记录；不能把分类正确率直接当作分割定位质量。"
+    },
+    {
+      "id": "08_crop_exposure",
+      "title": "类别 2：198 张阳性原图，对应约 67.2 次阳性裁剪期望",
+      "sources": [
+        "docs/results/E06-r01/crop_exposure.json"
+      ],
+      "observation": "每图每轮随机取一个 512 像素窗口时，类别 2 阳性原图保留阳性的平均概率约 33.9%。",
+      "scope": "对全部 1,089 个合法横向位置统计的期望，非实际采样日志；尚未做采样策略的因果对照。"
+    },
+    {
+      "id": "09_ensemble_heatmaps",
+      "title": "七组合 × 六种处理：总分、轮廓、误报与定位同时看",
+      "sources": [
+        "docs/results/E03-r02/summary.json"
+      ],
+      "observation": "soft 的总体 Dice 高，但阳性 Dice 与类别 2 定位降低；最优组合随评价目标而变化。",
+      "scope": "统一开发验证集、统一阈值；六处理定义见 E04/D41。颜色标尺在每个子图内独立。"
+    },
+    {
+      "id": "10_class2_all49",
+      "title": "类别 2 全部 49 张阳性：每张图的融合变化",
+      "sources": [
+        "docs/results/E03-r02/class2_positive_comparison.json"
+      ],
+      "observation": "同一组合并非对每张图都更好；8ed6b8054 仅 B 保有预测，其他组合为零。",
+      "scope": "全49图版本没有按结果删样本；12图版本按 A 的低 Dice 选取，阅读时配合全量图。"
+    },
+    {
+      "id": "11_class2_weak12",
+      "title": "A 最弱的 12 张类别 2 阳性：其他成员带来了什么",
+      "sources": [
+        "docs/results/E03-r02/class2_positive_comparison.json"
+      ],
+      "observation": "同一组合并非对每张图都更好；8ed6b8054 仅 B 保有预测，其他组合为零。",
+      "scope": "全49图版本没有按结果删样本；12图版本按 A 的低 Dice 选取，阅读时配合全量图。"
+    },
+    {
+      "id": "12_gains_losses",
+      "title": "ABC 相对 A：净提升背后也有新增误报与定位损失",
+      "sources": [
+        "docs/results/E03-r02/summary.json:combinations.ABC.area.vs_A"
+      ],
+      "observation": "类别 2 新增 1 张定位、无旧定位丢失；误报移除 328、新增 64，净少 264。类别 1、4 的定位净减少。",
+      "scope": "定位只要求与真值有像素交集；此图不衡量交集的覆盖质量。"
+    },
+    {
+      "id": "13_probability_8ed6b8054",
+      "title": "模型看到的概率：8ed6b8054",
+      "sources": [
+        "raw/runs/E03-r02/reference_probabilities/8ed6b8054.npz",
+        "docs/results/E03-r02/selected_cases.json",
+        "raw/data/severstal/train.csv"
+      ],
+      "observation": "仅 B 有正确交集；概率平均后的弱证据没有越过 0.5，面积过滤前即为空。",
+      "scope": "类别 2；原图横坐标裁取 [54, 157)，显示全部真值与各成员 >0.5 预测区域；这是分割概率，不是 Grad-CAM。面积为整张图轻面积过滤后的数量。"
+    },
+    {
+      "id": "13_probability_8f81e6d35",
+      "title": "模型看到的概率：8f81e6d35",
+      "sources": [
+        "raw/runs/E03-r02/reference_probabilities/8f81e6d35.npz",
+        "docs/results/E03-r02/selected_cases.json",
+        "raw/data/severstal/train.csv"
+      ],
+      "observation": "不同成员的预测位置和覆盖不同；以真实掩膜及逐图 Dice 判断改善，不只看热力图亮度。",
+      "scope": "类别 2；原图横坐标裁取 [374, 1061)，显示全部真值与各成员 >0.5 预测区域；这是分割概率，不是 Grad-CAM。面积为整张图轻面积过滤后的数量。"
+    },
+    {
+      "id": "13_probability_3088a6a0d",
+      "title": "模型看到的概率：3088a6a0d",
+      "sources": [
+        "raw/runs/E03-r02/reference_probabilities/3088a6a0d.npz",
+        "docs/results/E03-r02/selected_cases.json",
+        "raw/data/severstal/train.csv"
+      ],
+      "observation": "不同成员的预测位置和覆盖不同；以真实掩膜及逐图 Dice 判断改善，不只看热力图亮度。",
+      "scope": "类别 2；原图横坐标裁取 [49, 154)，显示全部真值与各成员 >0.5 预测区域；这是分割概率，不是 Grad-CAM。面积为整张图轻面积过滤后的数量。"
+    },
+    {
+      "id": "13_probability_7f3181e44",
+      "title": "模型看到的概率：7f3181e44",
+      "sources": [
+        "raw/runs/E03-r02/reference_probabilities/7f3181e44.npz",
+        "docs/results/E03-r02/selected_cases.json",
+        "raw/data/severstal/train.csv"
+      ],
+      "observation": "不同成员的预测位置和覆盖不同；以真实掩膜及逐图 Dice 判断改善，不只看热力图亮度。",
+      "scope": "类别 2；原图横坐标裁取 [49, 153)，显示全部真值与各成员 >0.5 预测区域；这是分割概率，不是 Grad-CAM。面积为整张图轻面积过滤后的数量。"
+    },
+    {
+      "id": "14_metric_decomposition",
+      "title": "为什么全空预测也能得到 0.8590？",
+      "sources": [
+        "docs/results/E03-r02/metric_context.json"
+      ],
+      "observation": "空标签占多数。soft 大幅减少误报后总体分上升，但阳性 Dice 由 area 的 0.7103 降至 0.6707。",
+      "scope": "仅分解本地验证分；不能用空预测参照推算官方测试分布。"
+    },
+    {
+      "id": "15_matched_control",
+      "title": "分类信息的增益，要和固定面积控制一起看",
+      "sources": [
+        "docs/results/E04-r01/matched_area_comparison.json",
+        "docs/results/E03-r02/summary.json"
+      ],
+      "observation": "A 上相同 466 个误报时，动态多保留 2 张弱定位；ABC 上两分支均为 273 个误报、48 张定位，且逐图结果相同。",
+      "scope": "A 的固定244为事后匹配误报的诊断阈值；ABC 固定250来自既定5倍面积控制，不是同一阈值搜索实验。"
+    },
+    {
+      "id": "16_official_scores",
+      "title": "冻结分支接受官方测试：本地结果不等于测试成绩",
+      "sources": [
+        "docs/results/E07-r01/kaggle_scores.json",
+        "docs/results/E03-r02/summary.json"
+      ],
+      "observation": "soft 的 Private 为 0.87003，高于 area 的 0.56641；两分支都存在本地与官方得分差距。",
+      "scope": "三个横轴为不同数据分区；本地参与选模与开发，官方为赛后提交得分，无追认比赛名次或隐藏集逐类指标。"
+    },
+    {
+      "id": "17_actual_cost",
+      "title": "设备上的实际耗时：保留波动，不用单一估计代替",
+      "sources": [
+        "raw/runs/E02-r01/history.jsonl",
+        "raw/runs/E02-r03/history.jsonl",
+        "raw/runs/E02-r04/history.jsonl"
+      ],
+      "observation": "各轮耗时明显波动；C 完整30轮累计时间最长。历史记录存在热降频和一次暂停恢复。",
+      "scope": "按完整轮次日志加总，排除暂停间隔、准备阶段和被中断的未完成轮次；不同设备状态和 batch，不能作纯架构速度结论。"
+    },
+    {
+      "id": "18_score_vs_misses",
+      "title": "总分提高的代价：六张原有正确定位被清空",
+      "sources": [
+        "docs/results/materials_20261024/abc_soft_class2_losses.json",
+        "docs/results/E03-r02/summary.json"
+      ],
+      "observation": "本地总体 Dice 0.7554→0.9442，类别2误报374→2；同时正确定位48→42。六张原有分割Dice为0.428至0.815，soft后均为0。",
+      "scope": "同一开发验证集上 area/soft 的对照；六张为全部新增定位丢失，不是挑选的案例。q来自正式第28轮分类器。官方隐藏集没有逐类标签，本图不代表官方漏检数。"
+    }
+  ],
+  "verification": {
+    "basis": "2026-10-24 existing evidence redraw; no new inference or training",
+    "raw_root": "runs/defense_materials_20261024/raw",
+    "source_commit": "50fbe58",
+    "source_commit_scope": "repository before visualization edits; training commits are in E02/E03 records",
+    "dataset": {
+      "images": 12568,
+      "positive_images": 6666,
+      "normal_images": 5902,
+      "multi_class": 427,
+      "positive_counts": [
+        897,
+        247,
+        5150,
+        801
+      ],
+      "cooccurrence": [
+        [
+          897,
+          37,
+          93,
+          0
+        ],
+        [
+          37,
+          247,
+          16,
+          1
+        ],
+        [
+          93,
+          16,
+          5150,
+          284
+        ],
+        [
+          0,
+          1,
+          284,
+          801
+        ]
+      ]
+    },
+    "example_detail_crops": [
+      {
+        "image": "f9b98ab64.jpg",
+        "class_id": 1,
+        "left": 430,
+        "width": 256,
+        "area_fraction": 1.0
+      },
+      {
+        "image": "163ff3547.jpg",
+        "class_id": 2,
+        "left": 386,
+        "width": 256,
+        "area_fraction": 1.0
+      },
+      {
+        "image": "6668e50d0.jpg",
+        "class_id": 3,
+        "left": 318,
+        "width": 256,
+        "area_fraction": 0.2230879986448717
+      },
+      {
+        "image": "9699f82fe.jpg",
+        "class_id": 4,
+        "left": 0,
+        "width": 256,
+        "area_fraction": 1.0
+      }
+    ],
+    "illustration_crop": {
+      "image": "163ff3547.jpg",
+      "keep_left": 258,
+      "empty_left": 525,
+      "keep_area": 2647
+    },
+    "class2_heatmap_order": [
+      "8ed6b8054.jpg",
+      "8f81e6d35.jpg",
+      "3088a6a0d.jpg",
+      "7f3181e44.jpg",
+      "338d3b828.jpg",
+      "caf49d870.jpg",
+      "85294cff9.jpg",
+      "c35fa49e2.jpg",
+      "b98aee209.jpg",
+      "a56df9123.jpg",
+      "2012a6d02.jpg",
+      "67a9dd552.jpg",
+      "156a74a49.jpg",
+      "38c25b61a.jpg",
+      "18ba753ff.jpg",
+      "41f5ea1f2.jpg",
+      "9eb76f829.jpg",
+      "7970f0008.jpg",
+      "d0d818b7d.jpg",
+      "12274ea9c.jpg",
+      "f7b1dd93a.jpg",
+      "0c6720401.jpg",
+      "6fdf2d1be.jpg",
+      "a44dd8116.jpg",
+      "f9b337a42.jpg",
+      "101648543.jpg",
+      "933675d91.jpg",
+      "bbc246c1b.jpg",
+      "f3e1e7c47.jpg",
+      "98937deb7.jpg",
+      "b3a8bd174.jpg",
+      "d75725fc3.jpg",
+      "17ac2163c.jpg",
+      "53f2e3c44.jpg",
+      "aeb94b95f.jpg",
+      "efe5694bf.jpg",
+      "599251689.jpg",
+      "488922ac2.jpg",
+      "acd30bd6a.jpg",
+      "2a7f8bab0.jpg",
+      "5ca7fcc19.jpg",
+      "2789df930.jpg",
+      "026183d85.jpg",
+      "bb3421ee8.jpg",
+      "e9a938877.jpg",
+      "f17e982f9.jpg",
+      "268446e17.jpg",
+      "6b53b62be.jpg",
+      "163ff3547.jpg"
+    ],
+    "probability_redraw_checks": [
+      {
+        "image": "8ed6b8054",
+        "member": "A",
+        "pred_area": 0,
+        "saved_area": 0,
+        "dice": 0.0,
+        "saved_dice": 0.0
+      },
+      {
+        "image": "8ed6b8054",
+        "member": "B",
+        "pred_area": 328,
+        "saved_area": 328,
+        "dice": 0.23436941764916042,
+        "saved_dice": 0.23436941764916042
+      },
+      {
+        "image": "8ed6b8054",
+        "member": "C",
+        "pred_area": 0,
+        "saved_area": 0,
+        "dice": 0.0,
+        "saved_dice": 0.0
+      },
+      {
+        "image": "8ed6b8054",
+        "member": "ABC",
+        "pred_area": 0,
+        "saved_area": 0,
+        "dice": 0.0,
+        "saved_dice": 0.0
+      },
+      {
+        "image": "8f81e6d35",
+        "member": "A",
+        "pred_area": 951,
+        "saved_area": 951,
+        "dice": 0.0,
+        "saved_dice": 0.0
+      },
+      {
+        "image": "8f81e6d35",
+        "member": "B",
+        "pred_area": 3701,
+        "saved_area": 3701,
+        "dice": 0.6272930648769575,
+        "saved_dice": 0.6272930648769575
+      },
+      {
+        "image": "8f81e6d35",
+        "member": "C",
+        "pred_area": 1967,
+        "saved_area": 1967,
+        "dice": 0.5338966002816334,
+        "saved_dice": 0.5338966002816334
+      },
+      {
+        "image": "8f81e6d35",
+        "member": "ABC",
+        "pred_area": 1606,
+        "saved_area": 1606,
+        "dice": 0.5501084598698481,
+        "saved_dice": 0.5501084598698481
+      },
+      {
+        "image": "3088a6a0d",
+        "member": "A",
+        "pred_area": 76,
+        "saved_area": 76,
+        "dice": 0.04621465491030709,
+        "saved_dice": 0.04621465491030709
+      },
+      {
+        "image": "3088a6a0d",
+        "member": "B",
+        "pred_area": 1173,
+        "saved_area": 1173,
+        "dice": 0.4993160054719562,
+        "saved_dice": 0.4993160054719562
+      },
+      {
+        "image": "3088a6a0d",
+        "member": "C",
+        "pred_area": 1050,
+        "saved_area": 1050,
+        "dice": 0.49261083743842365,
+        "saved_dice": 0.49261083743842365
+      },
+      {
+        "image": "3088a6a0d",
+        "member": "ABC",
+        "pred_area": 730,
+        "saved_area": 730,
+        "dice": 0.37027643925944714,
+        "saved_dice": 0.37027643925944714
+      },
+      {
+        "image": "7f3181e44",
+        "member": "A",
+        "pred_area": 76,
+        "saved_area": 76,
+        "dice": 0.05255878284923928,
+        "saved_dice": 0.05255878284923928
+      },
+      {
+        "image": "7f3181e44",
+        "member": "B",
+        "pred_area": 1173,
+        "saved_area": 1173,
+        "dice": 0.41062923038355476,
+        "saved_dice": 0.41062923038355476
+      },
+      {
+        "image": "7f3181e44",
+        "member": "C",
+        "pred_area": 1045,
+        "saved_area": 1045,
+        "dice": 0.4713804713804714,
+        "saved_dice": 0.4713804713804714
+      },
+      {
+        "image": "7f3181e44",
+        "member": "ABC",
+        "pred_area": 727,
+        "saved_area": 727,
+        "dice": 0.3415184871577759,
+        "saved_dice": 0.3415184871577759
+      }
+    ],
+    "recorded_costs": {
+      "A": {
+        "completed_epochs": 30,
+        "recorded_train_val_minutes": 113.49094350488366
+      },
+      "B": {
+        "completed_epochs": 18,
+        "recorded_train_val_minutes": 115.38673478906638
+      },
+      "C": {
+        "completed_epochs": 30,
+        "recorded_train_val_minutes": 205.0402507569335
+      }
+    },
+    "generated_figures": 22
+  }
+}
