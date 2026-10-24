@@ -1,0 +1,106 @@
+{
+  "date": "2026-10-24",
+  "basis": "Derived from E03-r02 summary; no new inference or training",
+  "images": 2514,
+  "image_class_pairs": 10056,
+  "positive_pairs": 1418,
+  "negative_pairs": 8638,
+  "all_empty_baseline": {
+    "dice": 0.8589896579156723,
+    "nonempty_dice": 0,
+    "class2_overlap_pairs": 0
+  },
+  "formula": "dice = (negative_pairs - false_positive_pairs + positive_pairs * nonempty_dice) / image_class_pairs",
+  "ABC": {
+    "raw": {
+      "dice": 0.717921171053598,
+      "dice_recomputed": 0.717921171053598,
+      "nonempty_dice": 0.7104480226480826,
+      "false_positive_pairs_all_classes": 2426,
+      "class2": {
+        "dice": 0.8173224834833434,
+        "nonempty_dice": 0.6683412954515341,
+        "image_class_recall": 0.9795918367346939,
+        "false_positive_pairs": 443,
+        "false_negative_pairs": 1,
+        "positive_pairs": 49,
+        "overlap_pairs": 48
+      }
+    },
+    "area": {
+      "dice": 0.7553938189584409,
+      "dice_recomputed": 0.7553938189584409,
+      "nonempty_dice": 0.7103245722468843,
+      "false_positive_pairs_all_classes": 2049,
+      "class2": {
+        "dice": 0.8447687841993338,
+        "nonempty_dice": 0.6683412954515341,
+        "image_class_recall": 0.9795918367346939,
+        "false_positive_pairs": 374,
+        "false_negative_pairs": 1,
+        "positive_pairs": 49,
+        "overlap_pairs": 48
+      }
+    },
+    "fixed5": {
+      "dice": 0.8145642552458864,
+      "dice_recomputed": 0.8145642552458864,
+      "nonempty_dice": 0.7054006704884582,
+      "false_positive_pairs_all_classes": 1447,
+      "class2": {
+        "dice": 0.8849438040879575,
+        "nonempty_dice": 0.6683412954515341,
+        "image_class_recall": 0.9795918367346939,
+        "false_positive_pairs": 273,
+        "false_negative_pairs": 1,
+        "positive_pairs": 49,
+        "overlap_pairs": 48
+      }
+    },
+    "hard": {
+      "dice": 0.9440041653668936,
+      "dice_recomputed": 0.9440041653668936,
+      "nonempty_dice": 0.674122628300058,
+      "false_positive_pairs_all_classes": 101,
+      "class2": {
+        "dice": 0.9905460145303723,
+        "nonempty_dice": 0.5965853169256327,
+        "image_class_recall": 0.8571428571428571,
+        "false_positive_pairs": 4,
+        "false_negative_pairs": 7,
+        "positive_pairs": 49,
+        "overlap_pairs": 42
+      }
+    },
+    "soft": {
+      "dice": 0.9442213316582878,
+      "dice_recomputed": 0.9442213316582878,
+      "nonempty_dice": 0.6707261714779565,
+      "false_positive_pairs_all_classes": 94,
+      "class2": {
+        "dice": 0.9910870531370882,
+        "nonempty_dice": 0.5835275834008139,
+        "image_class_recall": 0.8571428571428571,
+        "false_positive_pairs": 2,
+        "false_negative_pairs": 7,
+        "positive_pairs": 49,
+        "overlap_pairs": 42
+      }
+    },
+    "dynamic": {
+      "dice": 0.8136951135083967,
+      "dice_recomputed": 0.8136951135083967,
+      "nonempty_dice": 0.7076996201977701,
+      "false_positive_pairs_all_classes": 1459,
+      "class2": {
+        "dice": 0.8849438040879575,
+        "nonempty_dice": 0.6683412954515341,
+        "image_class_recall": 0.9795918367346939,
+        "false_positive_pairs": 273,
+        "false_negative_pairs": 1,
+        "positive_pairs": 49,
+        "overlap_pairs": 48
+      }
+    }
+  }
+}
