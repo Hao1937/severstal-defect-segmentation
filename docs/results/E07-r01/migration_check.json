@@ -1,0 +1,16 @@
+{
+  "area": {
+    "images": 32,
+    "rows": 128,
+    "changed_area_pairs": 0,
+    "changed_overlap_pairs": 0,
+    "max_dice_difference": 2.871898774348125e-08
+  },
+  "soft": {
+    "images": 32,
+    "rows": 128,
+    "changed_area_pairs": 1,
+    "changed_overlap_pairs": 0,
+    "max_dice_difference": 0.00016418631396458716
+  }
+}
