@@ -1,0 +1,193 @@
+{
+  "images": 5506,
+  "rows_per_submission": 22024,
+  "smoke_run": false,
+  "branches": [
+    "area"
+  ],
+  "seconds": 462.36064852799996,
+  "positive_predictions": {
+    "area": [
+      3098,
+      2020,
+      4885,
+      1062
+    ]
+  },
+  "peak_gpu_mib": 1421.0146484375,
+  "device": "Tesla T4",
+  "manifest": {
+    "export_commit": "31b45ad6e2eb7635bcea556e15953cffc52fba44",
+    "members": {
+      "A": {
+        "file": "A.pt",
+        "run": "E02-r01",
+        "epoch": 29,
+        "training_commit": "d0c1e67f72cb542a18fcfedf34de857b1f0799a8",
+        "config": {
+          "experiment": "E02",
+          "task": "segmentation",
+          "architecture": "Unet",
+          "encoder": "resnet34",
+          "encoder_weights": "imagenet",
+          "data_dir": "data/severstal",
+          "split": "data/split_seed42.json",
+          "seed": 42,
+          "crop_width": 512,
+          "batch_size": 4,
+          "val_batch_size": 1,
+          "workers": 4,
+          "epochs": 30,
+          "patience": 7,
+          "learning_rate": 0.0003,
+          "weight_decay": 0.0001,
+          "bce_weight": 0.75,
+          "positive_weights": [
+            2.0,
+            2.0,
+            1.0,
+            1.5
+          ],
+          "brightness_contrast": 0.1,
+          "threshold": 0.5,
+          "amp": true
+        },
+        "sha256": "ef5570f2e66084a1a5ad2a37c41a3f9d0ad7f2d50f93661c3e3d26842622f566"
+      },
+      "B": {
+        "file": "B.pt",
+        "run": "E02-r03",
+        "epoch": 11,
+        "training_commit": "9601fc2a6934a8eda1f19732f9d54fb6f628e31e",
+        "config": {
+          "experiment": "E02",
+          "task": "segmentation",
+          "architecture": "FPN",
+          "encoder": "se_resnext50_32x4d",
+          "encoder_weights": "imagenet",
+          "data_dir": "data/severstal",
+          "split": "data/split_seed42.json",
+          "seed": 42,
+          "crop_width": 512,
+          "batch_size": 2,
+          "val_batch_size": 1,
+          "workers": 4,
+          "epochs": 30,
+          "patience": 7,
+          "learning_rate": 0.0003,
+          "weight_decay": 0.0001,
+          "bce_weight": 0.75,
+          "positive_weights": [
+            2.0,
+            2.0,
+            1.0,
+            1.5
+          ],
+          "brightness_contrast": 0.1,
+          "threshold": 0.5,
+          "amp": true
+        },
+        "sha256": "baa995abd5d57e5de780154ecc4bb6eb00e4a88a90d98c70a0b4855bf20aec70"
+      },
+      "C": {
+        "file": "C.pt",
+        "run": "E02-r04",
+        "epoch": 29,
+        "training_commit": "c7427abf02108a2b3c7414cd78c862aa003f74c5",
+        "config": {
+          "experiment": "E02",
+          "task": "segmentation",
+          "architecture": "Unet",
+          "encoder": "efficientnet-b3",
+          "encoder_weights": "imagenet",
+          "data_dir": "data/severstal",
+          "split": "data/split_seed42.json",
+          "seed": 42,
+          "crop_width": 512,
+          "batch_size": 2,
+          "val_batch_size": 1,
+          "workers": 4,
+          "epochs": 30,
+          "patience": 7,
+          "learning_rate": 0.0003,
+          "weight_decay": 0.0001,
+          "bce_weight": 0.75,
+          "positive_weights": [
+            2.0,
+            2.0,
+            1.0,
+            1.5
+          ],
+          "brightness_contrast": 0.1,
+          "threshold": 0.5,
+          "amp": true
+        },
+        "sha256": "6166389bbafc605246d679dac369348b54fb1b6e31a84392654c222665f81743"
+      },
+      "classifier": {
+        "file": "classifier.pt",
+        "run": "E02-r02",
+        "epoch": 28,
+        "training_commit": "391513a2efdc743294bcefef42a46590744ee1c3",
+        "config": {
+          "experiment": "E02",
+          "task": "classification",
+          "architecture": "ResNet34",
+          "encoder": "resnet34",
+          "encoder_weights": "imagenet",
+          "data_dir": "data/severstal",
+          "split": "data/split_seed42.json",
+          "seed": 42,
+          "crop_width": 1600,
+          "batch_size": 8,
+          "val_batch_size": 8,
+          "workers": 4,
+          "epochs": 30,
+          "patience": 7,
+          "learning_rate": 0.0003,
+          "weight_decay": 0.0001,
+          "bce_weight": 0.75,
+          "positive_weights": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "brightness_contrast": 0.1,
+          "threshold": 0.5,
+          "amp": true
+        },
+        "sha256": "0e8a7036aac96e02a1feb0d3cef90da40ef7eed85ccbd5607027173d05d2f897"
+      }
+    },
+    "branches": [
+      "area",
+      "soft"
+    ],
+    "pixel_threshold": 0.5,
+    "minimum_areas": [
+      100,
+      50,
+      200,
+      400
+    ],
+    "classification_threshold": 0.5,
+    "factor": 5,
+    "packages": {
+      "torch": "2.7.1+cu128",
+      "torchvision": "0.22.1+cu128",
+      "segmentation-models-pytorch": "0.5.0",
+      "timm": "1.0.22",
+      "numpy": "1.26.4",
+      "Pillow": "12.3.0"
+    }
+  },
+  "runtime_packages": {
+    "torch": "2.11.0+cu128",
+    "torchvision": "0.26.0+cu128",
+    "segmentation-models-pytorch": "0.5.0",
+    "timm": "1.0.22",
+    "numpy": "2.1.3",
+    "Pillow": "13.0.0"
+  }
+}
